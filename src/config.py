@@ -47,6 +47,7 @@ class ProxyConfig:
     def __init__(self):
         self.SOURCE_URLS = [
             ChannelConfig("https://t.me/s/v2ray_free_conf"),
+            ChannelConfig("https://t.me/s/ShadowProxy66"),
             ChannelConfig("https://t.me/s/configV2rayForFree"),
             ChannelConfig("https://t.me/s/PrivateVPNs"),
             ChannelConfig("https://t.me/s/freewireguard"),
