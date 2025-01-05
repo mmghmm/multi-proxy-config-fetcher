@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-01-05T06:16:34.977452",
+  "timestamp": "2025-01-05T06:23:28.827244",
   "channels": [
     {
       "url": "https://t.me/s/v2ray_free_conf",
@@ -8,11 +8,11 @@
         "total_configs": 20,
         "valid_configs": 15,
         "unique_configs": 15,
-        "avg_response_time": 0.48,
+        "avg_response_time": 0.43,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 93.03,
-        "last_success": "2025-01-05T06:16:21.171813"
+        "overall_score": 93.1,
+        "last_success": "2025-01-05T06:23:15.350242"
       }
     },
     {
@@ -36,25 +36,11 @@
         "total_configs": 10,
         "valid_configs": 6,
         "unique_configs": 6,
-        "avg_response_time": 0.43,
+        "avg_response_time": 0.48,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 89.36,
-        "last_success": "2025-01-05T06:16:33.907515"
-      }
-    },
-    {
-      "url": "https://t.me/s/xs_filternet",
-      "enabled": true,
-      "metrics": {
-        "total_configs": 6,
-        "valid_configs": 6,
-        "unique_configs": 6,
-        "avg_response_time": 0.56,
-        "success_count": 1,
-        "fail_count": 0,
-        "overall_score": 99.16,
-        "last_success": "2025-01-05T06:16:34.503554"
+        "overall_score": 89.29,
+        "last_success": "2025-01-05T06:23:27.966447"
       }
     },
     {
@@ -62,13 +48,27 @@
       "enabled": true,
       "metrics": {
         "total_configs": 18,
-        "valid_configs": 14,
-        "unique_configs": 14,
-        "avg_response_time": 0.45,
+        "valid_configs": 15,
+        "unique_configs": 15,
+        "avg_response_time": 0.36,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 93.78,
-        "last_success": "2025-01-05T06:16:34.975659"
+        "overall_score": 95.29,
+        "last_success": "2025-01-05T06:23:28.355497"
+      }
+    },
+    {
+      "url": "https://t.me/s/xs_filternet",
+      "enabled": true,
+      "metrics": {
+        "total_configs": 6,
+        "valid_configs": 5,
+        "unique_configs": 5,
+        "avg_response_time": 0.43,
+        "success_count": 1,
+        "fail_count": 0,
+        "overall_score": 95.18,
+        "last_success": "2025-01-05T06:23:28.825412"
       }
     }
   ]
