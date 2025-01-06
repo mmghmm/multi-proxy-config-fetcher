@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-01-06T07:13:11.266916",
+  "timestamp": "2025-01-06T08:17:44.318656",
   "channels": [
     {
       "url": "https://t.me/s/v2ray_free_conf",
@@ -8,11 +8,11 @@
         "total_configs": 20,
         "valid_configs": 14,
         "unique_configs": 14,
-        "avg_response_time": 0.39,
+        "avg_response_time": 0.42,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 91.91,
-        "last_success": "2025-01-06T07:12:57.752526"
+        "overall_score": 91.88,
+        "last_success": "2025-01-06T08:17:19.991105"
       }
     },
     {
@@ -22,11 +22,11 @@
         "total_configs": 91,
         "valid_configs": 6,
         "unique_configs": 6,
-        "avg_response_time": 0.76,
+        "avg_response_time": 0.62,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 75.51,
-        "last_success": "2025-01-06T07:12:58.619379"
+        "overall_score": 75.72,
+        "last_success": "2025-01-06T08:17:20.721446"
       }
     },
     {
@@ -50,25 +50,25 @@
         "total_configs": 16,
         "valid_configs": 15,
         "unique_configs": 15,
-        "avg_response_time": 0.45,
+        "avg_response_time": 0.43,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 97.76,
-        "last_success": "2025-01-06T07:13:10.750854"
+        "overall_score": 97.8,
+        "last_success": "2025-01-06T08:17:32.748916"
       }
     },
     {
       "url": "https://t.me/s/xs_filternet",
       "enabled": true,
       "metrics": {
-        "total_configs": 7,
-        "valid_configs": 6,
-        "unique_configs": 6,
-        "avg_response_time": 0.46,
-        "success_count": 1,
+        "total_configs": 12,
+        "valid_configs": 9,
+        "unique_configs": 3,
+        "avg_response_time": 0,
+        "success_count": 0,
         "fail_count": 0,
-        "overall_score": 95.73,
-        "last_success": "2025-01-06T07:13:11.265191"
+        "overall_score": 0.0,
+        "last_success": null
       }
     }
   ]
