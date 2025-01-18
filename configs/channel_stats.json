@@ -1,18 +1,18 @@
 {
-  "timestamp": "2025-01-18T14:11:10.978402",
+  "timestamp": "2025-01-18T15:11:41.921695",
   "channels": [
     {
       "url": "https://t.me/s/v2ray_free_conf",
       "enabled": true,
       "metrics": {
         "total_configs": 20,
-        "valid_configs": 13,
-        "unique_configs": 13,
-        "avg_response_time": 0.74,
+        "valid_configs": 11,
+        "unique_configs": 11,
+        "avg_response_time": 1.2,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 90.14,
-        "last_success": "2025-01-18T14:10:26.490103"
+        "overall_score": 86.95,
+        "last_success": "2025-01-18T15:10:55.083724"
       }
     },
     {
@@ -47,14 +47,14 @@
       "url": "https://t.me/s/freewireguard",
       "enabled": true,
       "metrics": {
-        "total_configs": 18,
+        "total_configs": 19,
         "valid_configs": 15,
         "unique_configs": 15,
-        "avg_response_time": 0.59,
+        "avg_response_time": 0.68,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 94.94,
-        "last_success": "2025-01-18T14:10:58.399459"
+        "overall_score": 93.71,
+        "last_success": "2025-01-18T15:11:24.341805"
       }
     },
     {
