@@ -1,32 +1,32 @@
 {
-  "timestamp": "2025-02-05T16:15:41.205176",
+  "timestamp": "2025-02-05T17:11:15.844184",
   "channels": [
     {
       "url": "https://t.me/s/v2ray_free_conf",
       "enabled": true,
       "metrics": {
-        "total_configs": 42,
-        "valid_configs": 34,
-        "unique_configs": 34,
-        "avg_response_time": 0.59,
+        "total_configs": 33,
+        "valid_configs": 25,
+        "unique_configs": 25,
+        "avg_response_time": 0.6,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 94.35,
-        "last_success": "2025-02-05T16:15:04.129040"
+        "overall_score": 93.04,
+        "last_success": "2025-02-05T17:10:50.654664"
       }
     },
     {
       "url": "https://t.me/s/ShadowProxy66",
       "enabled": true,
       "metrics": {
-        "total_configs": 312,
-        "valid_configs": 12,
-        "unique_configs": 4,
-        "avg_response_time": 0,
-        "success_count": 0,
+        "total_configs": 104,
+        "valid_configs": 8,
+        "unique_configs": 8,
+        "avg_response_time": 0.81,
+        "success_count": 1,
         "fail_count": 0,
-        "overall_score": 0.0,
-        "last_success": null
+        "overall_score": 75.71,
+        "last_success": "2025-02-05T17:10:51.573801"
       }
     },
     {
@@ -34,8 +34,8 @@
       "enabled": true,
       "metrics": {
         "total_configs": 24,
-        "valid_configs": 2,
-        "unique_configs": 2,
+        "valid_configs": 5,
+        "unique_configs": 3,
         "avg_response_time": 0,
         "success_count": 0,
         "fail_count": 0,
@@ -54,7 +54,7 @@
         "success_count": 1,
         "fail_count": 0,
         "overall_score": 95.01,
-        "last_success": "2025-02-05T16:15:29.276108"
+        "last_success": "2025-02-05T17:11:03.963488"
       }
     },
     {
