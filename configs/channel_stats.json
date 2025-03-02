@@ -1,31 +1,31 @@
 {
-  "timestamp": "2025-03-02T05:13:05.333811",
+  "timestamp": "2025-03-02T06:17:25.876326",
   "channels": [
     {
       "url": "https://t.me/s/v2ray_free_conf",
       "enabled": true,
       "metrics": {
-        "total_configs": 51,
-        "valid_configs": 31,
-        "unique_configs": 31,
-        "avg_response_time": 0.54,
+        "total_configs": 20,
+        "valid_configs": 15,
+        "unique_configs": 15,
+        "avg_response_time": 0.41,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 89.39,
-        "last_success": "2025-03-02T05:12:40.978076"
+        "overall_score": 93.13,
+        "last_success": "2025-03-02T06:17:02.005937"
       }
     },
     {
       "url": "https://t.me/s/ShadowProxy66",
-      "enabled": false,
+      "enabled": true,
       "metrics": {
         "total_configs": 12,
-        "valid_configs": 0,
-        "unique_configs": 0,
+        "valid_configs": 6,
+        "unique_configs": 2,
         "avg_response_time": 0,
         "success_count": 0,
-        "fail_count": 1,
-        "overall_score": 15.0,
+        "fail_count": 0,
+        "overall_score": 0.0,
         "last_success": null
       }
     },
@@ -36,11 +36,11 @@
         "total_configs": 10,
         "valid_configs": 5,
         "unique_configs": 5,
-        "avg_response_time": 0.47,
+        "avg_response_time": 0.39,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 86.79,
-        "last_success": "2025-03-02T05:12:53.365031"
+        "overall_score": 86.92,
+        "last_success": "2025-03-02T06:17:14.099715"
       }
     },
     {
@@ -50,11 +50,11 @@
         "total_configs": 18,
         "valid_configs": 15,
         "unique_configs": 15,
-        "avg_response_time": 0.45,
+        "avg_response_time": 0.36,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 95.16,
-        "last_success": "2025-03-02T05:12:53.839058"
+        "overall_score": 95.29,
+        "last_success": "2025-03-02T06:17:14.483898"
       }
     },
     {
