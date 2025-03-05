@@ -1,32 +1,32 @@
 {
-  "timestamp": "2025-03-05T15:14:38.571578",
+  "timestamp": "2025-03-05T16:21:42.942083",
   "channels": [
     {
       "url": "https://t.me/s/v2ray_free_conf",
       "enabled": true,
       "metrics": {
         "total_configs": 46,
-        "valid_configs": 43,
-        "unique_configs": 41,
-        "avg_response_time": 0.68,
+        "valid_configs": 40,
+        "unique_configs": 38,
+        "avg_response_time": 0.53,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 96.18,
-        "last_success": "2025-03-05T15:14:24.731728"
+        "overall_score": 94.7,
+        "last_success": "2025-03-05T16:21:29.833449"
       }
     },
     {
       "url": "https://t.me/s/ShadowProxy66",
       "enabled": true,
       "metrics": {
-        "total_configs": 17,
+        "total_configs": 13,
         "valid_configs": 11,
         "unique_configs": 11,
-        "avg_response_time": 0.6,
+        "avg_response_time": 0.46,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 90.28,
-        "last_success": "2025-03-05T15:14:25.356907"
+        "overall_score": 95.46,
+        "last_success": "2025-03-05T16:21:30.323066"
       }
     },
     {
@@ -36,11 +36,11 @@
         "total_configs": 9,
         "valid_configs": 5,
         "unique_configs": 5,
-        "avg_response_time": 0.63,
+        "avg_response_time": 0.44,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 87.95,
-        "last_success": "2025-03-05T15:14:26.015128"
+        "overall_score": 88.23,
+        "last_success": "2025-03-05T16:21:30.797622"
       }
     },
     {
@@ -50,18 +50,18 @@
         "total_configs": 16,
         "valid_configs": 11,
         "unique_configs": 11,
-        "avg_response_time": 0.64,
+        "avg_response_time": 0.51,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 91.22,
-        "last_success": "2025-03-05T15:14:26.682051"
+        "overall_score": 91.43,
+        "last_success": "2025-03-05T16:21:31.328601"
       }
     },
     {
       "url": "https://t.me/s/xs_filternet",
       "enabled": false,
       "metrics": {
-        "total_configs": 3,
+        "total_configs": 0,
         "valid_configs": 0,
         "unique_configs": 0,
         "avg_response_time": 0,
