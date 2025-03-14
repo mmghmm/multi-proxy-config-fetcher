@@ -1,32 +1,32 @@
 {
-  "timestamp": "2025-03-14T20:14:07.137991",
+  "timestamp": "2025-03-14T21:12:53.605288",
   "channels": [
     {
       "url": "https://t.me/s/v2ray_free_conf",
       "enabled": true,
       "metrics": {
         "total_configs": 20,
-        "valid_configs": 10,
-        "unique_configs": 10,
-        "avg_response_time": 0.72,
+        "valid_configs": 12,
+        "unique_configs": 12,
+        "avg_response_time": 0.42,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 86.42,
-        "last_success": "2025-03-14T20:13:32.341646"
+        "overall_score": 89.37,
+        "last_success": "2025-03-14T21:12:19.403607"
       }
     },
     {
       "url": "https://t.me/s/ShadowProxy66",
       "enabled": true,
       "metrics": {
-        "total_configs": 110,
+        "total_configs": 122,
         "valid_configs": 59,
         "unique_configs": 56,
-        "avg_response_time": 0.52,
+        "avg_response_time": 0.49,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 86.35,
-        "last_success": "2025-03-14T20:13:32.908370"
+        "overall_score": 85.09,
+        "last_success": "2025-03-14T21:12:19.933978"
       }
     },
     {
