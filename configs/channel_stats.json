@@ -1,45 +1,45 @@
 {
-  "timestamp": "2025-03-14T13:20:41.134071",
+  "timestamp": "2025-03-14T14:12:35.654418",
   "channels": [
     {
       "url": "https://t.me/s/v2ray_free_conf",
       "enabled": true,
       "metrics": {
         "total_configs": 20,
-        "valid_configs": 13,
-        "unique_configs": 13,
-        "avg_response_time": 0.43,
+        "valid_configs": 11,
+        "unique_configs": 11,
+        "avg_response_time": 0.5,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 90.61,
-        "last_success": "2025-03-14T13:20:17.677254"
+        "overall_score": 88.0,
+        "last_success": "2025-03-14T14:12:11.678959"
       }
     },
     {
       "url": "https://t.me/s/ShadowProxy66",
       "enabled": true,
       "metrics": {
-        "total_configs": 78,
-        "valid_configs": 44,
-        "unique_configs": 41,
-        "avg_response_time": 0.47,
+        "total_configs": 100,
+        "valid_configs": 53,
+        "unique_configs": 50,
+        "avg_response_time": 0.55,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 86.69,
-        "last_success": "2025-03-14T13:20:18.192041"
+        "overall_score": 86.01,
+        "last_success": "2025-03-14T14:12:12.273636"
       }
     },
     {
       "url": "https://t.me/s/configV2rayForFree",
-      "enabled": true,
+      "enabled": false,
       "metrics": {
         "total_configs": 21,
-        "valid_configs": 6,
-        "unique_configs": 1,
+        "valid_configs": 0,
+        "unique_configs": 0,
         "avg_response_time": 0,
         "success_count": 0,
-        "fail_count": 0,
-        "overall_score": 0.0,
+        "fail_count": 1,
+        "overall_score": 15.0,
         "last_success": null
       }
     },
@@ -50,11 +50,11 @@
         "total_configs": 20,
         "valid_configs": 5,
         "unique_configs": 5,
-        "avg_response_time": 0.4,
+        "avg_response_time": 0.47,
         "success_count": 1,
         "fail_count": 0,
-        "overall_score": 80.65,
-        "last_success": "2025-03-14T13:20:29.821637"
+        "overall_score": 80.55,
+        "last_success": "2025-03-14T14:12:24.149698"
       }
     },
     {
