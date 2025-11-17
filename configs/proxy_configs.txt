@@ -34,8 +34,6 @@ vless://14e53524-5562-47a6-901f-327f0b2645c0@speedtest.net:80?mode=auto&path=%2F
 
 vless://157e459b-e4c1-44bb-d009-ac596636e728@46.101.110.155:443?mode=gun&security=none&encryption=none&type=grpc#telegram%20%F0%9F%8E%AA%20dailyv2ry
 
-vless://163100aa-f9bd-4ada-ae17-ceeccc8ca66b@104.21.84.30:2053/?type=ws&encryption=none&flow=&host=name.api-music-fa.com&path=%2FJ5aLQOY1R9ONWYCM&ed=2560&eh=Sec-WebSocket-Protocol&security=tls&sni=name.api-music-fa.com&allowInsecure=1#%F0%9F%A7%B850%40oneclickvpnkeys
-
 vless://163100aa-f9bd-4ada-ae17-ceeccc8ca66b@104.21.84.30:2053?path=%2FJ5aLQOY1R9ONWYCM&security=tls&encryption=none&host=name.api-music-fa.com&type=ws&sni=name.api-music-fa.com#@meli_proxyy
 
 vless://1a99075a-0ac0-40ec-bb86-3cc1b6fe211f@51.79.102.230:443?type=ws&encryption=none&security=&host=51.79.102.230&path=/linkws?ed=2560&sni=#telegram%20%F0%9F%8E%AA%20dailyv2ry
@@ -143,6 +141,12 @@ vless://47d7d5eb-55e6-4085-a155-bdf3fcc428f6@162.243.115.176:59483?encryption=no
 vless://47d7d5eb-55e6-4085-a155-bdf3fcc428f6@162.243.115.176:59483?encryption=none&type=grpc#United%20States%2044%20dailyv2ry
 
 vless://47d7d5eb-55e6-4085-a155-bdf3fcc428f6@162.243.115.176:59483?encryption=none&type=grpc#United%20States%2091%20dailyv2ry
+
+vless://47d7d5eb-55e6-4085-a155-bdf3fcc428f6@162.243.120.133:59483?encryption=none&type=grpc#telegram%20%F0%9F%8D%80%20dailyv2ry
+
+trojan://2274c52572e721086f8bd8f88984643c@153.121.51.29:127?security=tls&sni=www.nintendogames.net&type=tcp&headerType=none&path=/#⚜️Telegram:@IP_CF•••••••••••••••••••••••••••••••••••📢 Channel : @IP_CF_Config📢 Main Channel : @IP_CF•••••••••••••••••••••••••••••••••••
+
+trojan://2274c52572e721086f8bd8f88984643c@160.16.124.55:5553?security=tls&headerType=none&type=tcp&sni=www.nintendogames.net#⚜️Telegram:@IP_CF•••••••••••••••••••••••••••••••••••📢 Channel : @IP_CF_Config📢 Main Channel : @IP_CF•••••••••••••••••••••••••••••••••••
 
 trojan://2274c52572e721086f8bd8f88984643c@160.16.132.158:1334?security=tls&sni=www.nintendogames.net&path=/#⚜️Telegram:@IP_CF•••••••••••••••••••••••••••••••••••📢 Channel : @IP_CF_Config📢 Main Channel : @IP_CF•••••••••••••••••••••••••••••••••••
 
@@ -336,11 +340,9 @@ vmess://eyJ2IjogIjIiLCAicHMiOiAidGVsZWdyYW0gXHVkODNjXHVkZjFmIGRhaWx5djJyeSIsICJh
 
 vmess://eyJ2IjoiMiIsInBzIjoi8J+HqPCfh7MgQ04tMTQ0LjQ4LjE4MC4xODYtNzg4NCIsImFkZCI6InYxMi5oZWR1aWFuLmxpbmsiLCJwb3J0IjoiMzA4MTIiLCJ0eXBlIjoiYXV0byIsImlkIjoiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0IiwiYWlkIjoiMiIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0Ijoib2NiYy5jb20iLCJ0bHMiOiIifQ==
 
-vmess://eyJ2IjoiMiIsInBzIjoi8J+Hs/Cfh7EgSVTCsl8xfDEuNk1CL3N8VEstTkx8WHxLZWVwSGlzdG9yeSIsImFkZCI6InY1LmhlZHVpYW4ubGluayIsInBvcnQiOiIzMDgwNSIsInR5cGUiOiJub25lIiwiaWQiOiJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCJhaWQiOiIyIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoidjUuaGVkdWlhbi5saW5rIiwidGxzIjoiIn0=
-
 vmess://eyJ2IjoiMiIsInBzIjoiXHUyNjljXHVmZTBmVGVsZWdyYW06QElQX0NGIiwiYWRkIjoiMTg1LjE0Ni4xNzMuMjUiLCJwb3J0Ijo4MCwiaWQiOiJlZDFiNTc0My0zODliLTQ4YTItOGQ2MC0zNzkwZWRlZDdjYTYiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Ii0tLSIsImhvc3QiOiJnb29nbGUud2hhdHNhcHAuc25hcHAudG9yb2IuYmFzYWxhbS50b3JvYi5NY2kuemFyYXNob3AwLmlyLiIsInBhdGgiOiJcLyIsInRscyI6IiIsInNuaSI6IiIsImFscG4iOiIiLCJmcCI6IiIsIm5hbWUiOiI+PkB2MmxpbmU6OlhYOjpYWDo6WFgifQ==
 
-vmess://eyJ2IjoiMiIsInBzIjoiXHUyNjljXHVmZTBmVGVsZWdyYW06QElQX0NGIiwiYWRkIjoiNDcuMjM4LjI0Ny42OSIsInBvcnQiOjU2NzgzLCJpZCI6ImM0YjhiYTkwLWIxMTMtNDYxZS04OTg5LWEzMDc5ZWFhMzk0YiIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiLS0tIiwiaG9zdCI6IiIsInBhdGgiOiJcL2Fya2k/ZWQ9MjA0OCIsInRscyI6IiIsInNuaSI6IiIsImFscG4iOiIiLCJmcCI6IiIsIm5hbWUiOiJob3BlIG9mIGZyZWVkb20gLSBAYW5vdGhlcm1lX25pZ2h0In0=
+vmess://eyJ2IjoiMiIsInBzIjoiXHUyNjljXHVmZTBmVGVsZWdyYW06QElQX0NGIiwiYWRkIjoiMTguMTQzLjI0OC4xNTciLCJwb3J0Ijo1Mzc4NCwiaWQiOiIzYTQ4MGE3ZC1hNGIzLTQ2ZTEtZDRjNC0wNDI1NmI3N2YwNDUiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJodHRwIiwiaG9zdCI6IjE4LjE0My4yNDguMTU3IiwicGF0aCI6IlwvIiwidGxzIjoiIiwic25pIjoiIiwiYWxwbiI6IiIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsIm5hbWUiOiI+PkB2Mm5vZGVzOjpYWCJ9
 
 vmess://eyJ2IjoiMiIsInBzIjoiXHUyNjljXHVmZTBmVGVsZWdyYW06QElQX0NGIiwiYWRkIjoiNDcuMjUwLjk1LjUzIiwicG9ydCI6MjUzMTMsImlkIjoiOWU3NjQ0M2EtNWRiMS00YTk4LThhYzktMGI4ZTY5Yzg0ZmFmIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ3cyIsInR5cGUiOiItLS0iLCJob3N0IjoiIiwicGF0aCI6IlwvYXJraT9lZD0yMDQ4IiwidGxzIjoiIiwic25pIjoiIiwiYWxwbiI6IiIsImZwIjoiIiwibmFtZSI6Ij4+QHYybGluZTo6WFg6OlhYIn0=
 
@@ -378,11 +380,7 @@ vmess://eyJhZGQiOiIxNDAuMjQ4LjEyOC4yNyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJo
 
 vmess://eyJhZGQiOiIxNDEuMTAxLjEyMS4yNiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiZ29vZ2xlLndoYXRzYXBwLnNuYXBwLnRvcm9iLmJhc2FsYW0ubGVvc2hvcHBpbmc3Ny5pci4iLCJpZCI6ImQ5NjdmZmNhLWRlOTAtNGRhYS1iZDAwLWQ1MjdlNWJhZTExZiIsIm5ldCI6IndzIiwicGF0aCI6Ii8/QklBX1RFTEVHUkFNIChAQVpBUkJBWUpBQjEpIFRNIChAQVpBUkJBWUpBQjEpIFRNIChAQVpBUkJBWUpBQjEpIFRNIChAQVpBUkJBWUpBQjEpIFRNIChAQVpBUkJBWUpBQjEpIFRNIChAQVpBUkJBWUpBQjEpIiwicG9ydCI6IjgwIiwicHMiOiJAbWVsaV9wcm94eXkiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=
 
-vmess://eyJhZGQiOiIxNDEuOTQuMTU1LjIyOCIsImFpZCI6IjEiLCJob3N0Ijoia2FtcG9uZy5vcmciLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsIm5ldCI6IndzIiwicGF0aCI6Imxpbmt2d3MjVE0gKEBBWkFSQkFZSkFCMSlUTSAoQEFaQVJCQVlKQUIxKVRNIChAQVpBUkJBWUpBQjEpIiwicG9ydCI6IjQ0MyIsInBzIjoiVE0gKEBBWkFSQkFZSkFCMSnwn4ep8J+HqiIsInNuaSI6ImthbXBvbmcub3JnIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
-
 vmess://eyJhZGQiOiIxNTUuMjU0LjM1LjIxNCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJkMmI3OTRiMi0zYmRjLTQ5ZTItODI3YS0xYmY5ZmNiYTRiMWMiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjUxNDA5IiwicHMiOiJAb25lX3Nob3Bfb2ZmaWNpYWwiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
-
-vmess://eyJhZGQiOiIxNTguNTEuMTIxLjYzIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJzZXJpYnVzLm9yZyIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwibmV0Ijoid3MiLCJwYXRoIjoibGlua3Z3cyIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh6jwn4emQEZyZWFrQ29uZmlnIiwic2N5IjoiYXV0byIsInNuaSI6InNlcmlidXMub3JnIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=
 
 vmess://eyJhZGQiOiIxNzYuOS4xNzguNTIiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiOTQ0NTJlNzgtZGFhZC00OTBmLWYxNGUtNWExNDNlNzUyYmY4IiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiIyMDUyIiwicHMiOiI+PkBvdXRsaW5lX3Zwbjo6WFgiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0
 
