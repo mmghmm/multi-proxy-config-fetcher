@@ -18,7 +18,7 @@ SOURCE_URLS = [
     "https://t.me/s/DailyV2RY",
     "https://t.me/s/shadowproxy66",
     "https://t.me/s/moftconfig",
-    "https://t.me/s/ConfigsHUB2",
+    "https://t.me/s/persianvpnhub",
     "https://t.me/s/ArV2ray",
     # Add more URLs here if you want to include additional sources.
 ]
@@ -45,4 +45,4 @@ ENABLED_PROTOCOLS = {
 
 # Maximum age of configurations in days.
 # Configurations older than this will be considered invalid.
-MAX_CONFIG_AGE_DAYS = 7
+MAX_CONFIG_AGE_DAYS = 5
