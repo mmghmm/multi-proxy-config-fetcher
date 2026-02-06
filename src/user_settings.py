@@ -19,7 +19,7 @@ SOURCE_URLS = [
     "https://t.me/s/shadowproxy66",
     "https://t.me/s/moftconfig",
     "https://t.me/s/persianvpnhub",
-    "https://t.me/s/ArV2ray",
+    "https://t.me/s/ConfigsHUB2",
     # Add more URLs here if you want to include additional sources.
 ]
 
