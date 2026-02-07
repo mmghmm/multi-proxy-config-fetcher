@@ -4,11 +4,11 @@
 # Add or remove URLs as needed. All URLs in this list are automatically enabled.
 SOURCE_URLS = [
     "https://raw.githubusercontent.com/mahsanet/MahsaFreeConfig/refs/heads/main/mtn/sub_1.txt",
+    "https://t.me/s/persianvpnhub",
     "https://t.me/s/v2rayfree",
     "https://t.me/s/PrivateVPNs",
     "https://t.me/s/prrofile_purple",
     "https://t.me/s/DirectVPN",
-    "https://t.me/s/persianvpnhub",
     "https://raw.githubusercontent.com/MahsaNetConfigTopic/config/refs/heads/main/xray_final.txt",
     "https://raw.githubusercontent.com/Mahdi0024/ProxyCollector/master/sub/proxies.txt",
     "https://raw.githubusercontent.com/arshiacomplus/v2rayExtractor/refs/heads/main/mix/sub.html",
