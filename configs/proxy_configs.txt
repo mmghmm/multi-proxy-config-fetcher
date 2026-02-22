@@ -132,10 +132,6 @@ vless://051b4552-b516-485c-b4a0-fe18ab4ec7ee@185.117.0.185:651?mode=gun&security
 
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@15.188.161.63:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#%F0%9F%94%A5Join%2BTelegram%3A%40Farah_VPN%F0%9F%9F%A3
 
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@35.181.11.162:22224?type=ws&security=tls&sni=trojan.burgerip.co.uk&path=%2Ftelegram-channel-vlessconfig#%40moftconfig%20%E2%9A%A1751ms
-
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@35.181.68.122:22224?type=ws&security=tls&sni=trojan.burgerip.co.uk&path=%2Ftelegram-channel-vlessconfig#%40moftconfig%20%E2%9A%A1810ms
-
 vless://055a1ce8-2a16-4a0d-a2c2-22826c9b2413@47.253.226.114:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.cloudflare.com&fp=chrome&security=reality&pbk=Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc&sid=#%3E%3E%40oneclickvpnkeys%3A%3AUS
 
 vless://055a1ce8-2a16-4a0d-a2c2-22826c9b2413@47.253.226.114:443?flow=xtls-rprx-vision&security=reality&encryption=none&sni=www.cloudflare.com&fp=chrome&pbk=Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc&type=tcp&path=%2f#%f0%9f%87%ba%f0%9f%87%b8%20US%206
@@ -143,6 +139,10 @@ vless://055a1ce8-2a16-4a0d-a2c2-22826c9b2413@47.253.226.114:443?flow=xtls-rprx-v
 vless://055a1ce8-2a16-4a0d-a2c2-22826c9b2413@47.253.226.114:443?flow=xtls-rprx-vision&security=reality&encryption=none&sni=www.cloudflare.com&fp=chrome&pbk=Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc&type=tcp&path=%2f#%f0%9f%87%ba%f0%9f%87%b8%20US%207
 
 vless://057b649c-54b1-4f68-86b1-90381637a2cf@152.53.33.43:443?encryption=none&type=tcp&headerType=http&host=www.speedtest.net&path=%2f#%f0%9f%87%a9%f0%9f%87%aa%20DE%2010
+
+vless://057b649c-54b1-4f68-86b1-90381637a2cf@152.53.33.43:443?security=&encryption=none&host=www.speedtest.net&headerType=http&type=tcp#%3E%3E%40configV2rayNG%3A%3AAT
+
+vless://05ac3cee-cc13-4cde-bfbe-928974baa2e3@85.192.40.51:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=apple.com&fp=chrome&security=reality&pbk=nWGZxelG2CsJkJlZ2sJXxiLBQODS9xAetwdA4q0BwDI&sid=#%3E%3E%40oneclickvpnkeys%3A%3ADE
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0MmQyYjQ3MTgxYTMyZGU3@154.26.132.38:16922#HP71
 
@@ -294,7 +294,11 @@ trojan://031322@masterserver1-masterserver1-masterserver1-masterserver1.nopere92
 
 trojan://031322@masterserver1-masterserver1-masterserver1-masterserver1.vivov74504.workers.dev:2053?security=tls&sni=masterserver1-masterserver1-masterserver1-masterserver1.vivov74504.workers.dev&fp=chrome&type=ws&host=masterserver1-masterserver1-masterserver1-masterserver1.vivov74504.workers.dev&path=%2f%3fed%3d2560#%f0%9f%87%ba%f0%9f%87%b8%20US%201
 
+trojan://031322@masterserver1-masterserver1-masterserver1-masterserver1.vivov74504.workers.dev:2053?security=tls&sni=masterserver1-masterserver1-masterserver1-masterserver1.vivov74504.workers.dev&fp=chrome&type=ws&host=masterserver1-masterserver1-masterserver1-masterserver1.vivov74504.workers.dev&path=/?ed=2560#⚜️Telegram:@IP_CF•••••••••••••••••••••••••••••••••••📢 Channel : @IP_CF_Config📢 Main Channel : @IP_CF•••••••••••••••••••••••••••••••••••
+
 trojan://031322@masterserver1-masterserver1-masterserver1-masterserver1.xolom10222.workers.dev:2083?security=tls&sni=masterserver1-masterserver1-masterserver1-masterserver1.xolom10222.workers.dev&fp=chrome&type=ws&host=masterserver1-masterserver1-masterserver1-masterserver1.xolom10222.workers.dev&path=%2f%3fed%3d2560#%f0%9f%87%ba%f0%9f%87%b8%20US%203
+
+trojan://031322@masterserver1-masterserver1-masterserver1-masterserver1.xolom10222.workers.dev:2083?security=tls&sni=masterserver1-masterserver1-masterserver1-masterserver1.xolom10222.workers.dev&fp=chrome&type=ws&host=masterserver1-masterserver1-masterserver1-masterserver1.xolom10222.workers.dev&path=/?ed=2560#⚜️Telegram:@IP_CF•••••••••••••••••••••••••••••••••••📢 Channel : @IP_CF_Config📢 Main Channel : @IP_CF•••••••••••••••••••••••••••••••••••
 
 trojan://031322@masterserver1-masterserver1-masterserver1-masterserver1.xqvyetsl.workers.dev:2096?security=tls&sni=masterserver1-masterserver1-masterserver1-masterserver1.xqvyetsl.workers.dev&fp=chrome&type=ws&host=masterserver1-masterserver1-masterserver1-masterserver1.xqvyetsl.workers.dev&path=%2f%3fed%3d2560#%f0%9f%87%ba%f0%9f%87%b8%20US%202
 
@@ -304,9 +308,9 @@ trojan://0zmdDXd0Qt5ff_7Qg67R-Rtq4Tmt4c@188.116.22.217:2083?security=tls&sni=xo.
 
 trojan://0zmdDXd0Qt5ff_7Qg67R-Rtq4Tmt4c@188.116.22.217:2083?security=tls&sni=xo.e0f.cx&type=ws&host=xo.e0f.cx&path=%2ftrojan-ws&allow_insecure=0#%f0%9f%87%ad%f0%9f%87%b0%20HK%2011
 
-trojan://0zmdDXd0Qt5ff_7Qg67R-Rtq4Tmt4c@188.116.22.217:2083?security=tls&sni=xo.e0f.cx&type=ws&host=xo.e0f.cx&path=/trojan-ws&allow_insecure=0#⚜️Telegram:@IP_CF•••••••••••••••••••••••••••••••••••📢 Channel : @IP_CF_Config📢 Main Channel : @IP_CF•••••••••••••••••••••••••••••••••••
-
 trojan://1338f666-2fcc-4538-bc29-1ebf89624383@ilop.uk2033.ccwu.cc:443?security=tls&sni=ilop.uk2033.ccwu.cc&alpn=http%2f1.1&type=ws&host=ilop.uk2033.ccwu.cc&path=%2fXCLcnSashhgSVE3HOw1VI85y#%f0%9f%87%ba%f0%9f%87%b8%20US%2042
+
+trojan://1338f666-2fcc-4538-bc29-1ebf89624383@ilop.uk2033.ccwu.cc:443?security=tls&sni=ilop.uk2033.ccwu.cc&alpn=http/1.1&type=ws&host=ilop.uk2033.ccwu.cc&path=/XCLcnSashhgSVE3HOw1VI85y#⚜️Telegram:@IP_CF•••••••••••••••••••••••••••••••••••📢 Channel : @IP_CF_Config📢 Main Channel : @IP_CF•••••••••••••••••••••••••••••••••••
 
 trojan://1338f666-2fcc-4538-bc29-1ebf89624383@u8.ok8.ccwu.cc:443?security=tls&sni=u8.ok8.ccwu.cc&alpn=http%2f1.1&type=ws&host=u8.ok8.ccwu.cc&path=%2fXCLcnSashhgSVE3HOw1VI85y#%f0%9f%87%ba%f0%9f%87%b8%20US%2069
 
@@ -314,25 +318,23 @@ trojan://1798b14b-aee0-4008-ba9a-2e53877761b4@y.taiwan2029.indevs.in:443?securit
 
 trojan://1798b14b-aee0-4008-ba9a-2e53877761b4@y.taiwan2029.indevs.in:443?security=tls&sni=y.taiwan2029.indevs.in&alpn=http%2f1.1&type=ws&host=y.taiwan2029.indevs.in&path=%2fRXvyoH0kyRosKkycyrxcJWNVFC21#%f0%9f%87%ba%f0%9f%87%b8%20US%20128
 
-trojan://1798b14b-aee0-4008-ba9a-2e53877761b4@y.taiwan2029.indevs.in:443?security=tls&sni=y.taiwan2029.indevs.in&alpn=http/1.1&type=ws&host=y.taiwan2029.indevs.in&path=/RXvyoH0kyRosKkycyrxcJWNVFC21#⚜️Telegram:@IP_CF•••••••••••••••••••••••••••••••••••📢 Channel : @IP_CF_Config📢 Main Channel : @IP_CF•••••••••••••••••••••••••••••••••••
-
 trojan://1e32fe52198848788f029c2ec244f347@212.192.14.227:9443/?type=tcp&sni=ya.ru&fp=random&security=reality&pbk=GooqN94J-NNbWxkVsDb7NIQW4xXhkMGByk58ihKwX1Q&sid=aabbccdd#%F0%9F%87%B7%F0%9F%87%BA%40FREE2CONFIG%20
 
 trojan://2bfded8d-6a7c-4c18-aaa5-fc65b955d50c@bbbnhju.1xa.ccwu.cc:443?security=tls&sni=bbbnhju.1xa.ccwu.cc&alpn=http%2f1.1&type=ws&host=bbbnhju.1xa.ccwu.cc&path=%2f7vMsF4VUuJ3dX414bl#%f0%9f%87%ba%f0%9f%87%b8%20US%2018
+
+trojan://2bfded8d-6a7c-4c18-aaa5-fc65b955d50c@bbbnhju.1xa.ccwu.cc:443?security=tls&sni=bbbnhju.1xa.ccwu.cc&alpn=http/1.1&type=ws&host=bbbnhju.1xa.ccwu.cc&path=/7vMsF4VUuJ3dX414bl#⚜️Telegram:@IP_CF•••••••••••••••••••••••••••••••••••📢 Channel : @IP_CF_Config📢 Main Channel : @IP_CF•••••••••••••••••••••••••••••••••••
 
 trojan://2bfded8d-6a7c-4c18-aaa5-fc65b955d50c@ddccvvbn.09o.ccwu.cc:443?security=tls&sni=ddccvvbn.09o.ccwu.cc&alpn=http%2f1.1&type=ws&host=ddccvvbn.09o.ccwu.cc&path=%2f7vMsF4VUuJ3dX414bl#%f0%9f%87%ba%f0%9f%87%b8%20US%2019
 
 trojan://2bfded8d-6a7c-4c18-aaa5-fc65b955d50c@gbnhju.02o.ccwu.cc:443?security=tls&sni=gbnhju.02o.ccwu.cc&alpn=http%2f1.1&type=ws&host=gbnhju.02o.ccwu.cc&path=%2f7vMsF4VUuJ3dX414bl#%f0%9f%87%ba%f0%9f%87%b8%20US%2015
 
-trojan://2bfded8d-6a7c-4c18-aaa5-fc65b955d50c@gbnhju.02o.ccwu.cc:443?security=tls&sni=gbnhju.02o.ccwu.cc&alpn=http/1.1&type=ws&host=gbnhju.02o.ccwu.cc&path=/7vMsF4VUuJ3dX414bl#⚜️Telegram:@IP_CF•••••••••••••••••••••••••••••••••••📢 Channel : @IP_CF_Config📢 Main Channel : @IP_CF•••••••••••••••••••••••••••••••••••
-
 trojan://2bfded8d-6a7c-4c18-aaa5-fc65b955d50c@ikkmmmh.890603.xyz:443?security=tls&sni=ikkmmmh.890603.xyz&alpn=http%2f1.1&type=ws&host=ikkmmmh.890603.xyz&path=%2f7vMsF4VUuJ3dX414bl#%f0%9f%87%ba%f0%9f%87%b8%20US%2020
-
-trojan://2bfded8d-6a7c-4c18-aaa5-fc65b955d50c@ikkmmmh.890603.xyz:443?security=tls&sni=ikkmmmh.890603.xyz&alpn=http/1.1&type=ws&host=ikkmmmh.890603.xyz&path=/7vMsF4VUuJ3dX414bl#⚜️Telegram:@IP_CF•••••••••••••••••••••••••••••••••••📢 Channel : @IP_CF_Config📢 Main Channel : @IP_CF•••••••••••••••••••••••••••••••••••
 
 trojan://2bfded8d-6a7c-4c18-aaa5-fc65b955d50c@mmjjjnggh.0og.ccwu.cc:443?security=tls&sni=mmjjjnggh.0og.ccwu.cc&alpn=http%2f1.1&type=ws&host=mmjjjnggh.0og.ccwu.cc&path=%2f7vMsF4VUuJ3dX414bl#%f0%9f%87%ba%f0%9f%87%b8%20US%2097
 
 trojan://2bfded8d-6a7c-4c18-aaa5-fc65b955d50c@nnmmkk999.890602.xyz:443?security=tls&sni=nnmmkk999.890602.xyz&alpn=http%2f1.1&type=ws&host=nnmmkk999.890602.xyz&path=%2f7vMsF4VUuJ3dX414bl#%f0%9f%87%ba%f0%9f%87%b8%20US%2033
+
+trojan://2bfded8d-6a7c-4c18-aaa5-fc65b955d50c@nnmmkk999.890602.xyz:443?security=tls&sni=nnmmkk999.890602.xyz&alpn=http/1.1&type=ws&host=nnmmkk999.890602.xyz&path=/7vMsF4VUuJ3dX414bl#⚜️Telegram:@IP_CF•••••••••••••••••••••••••••••••••••📢 Channel : @IP_CF_Config📢 Main Channel : @IP_CF•••••••••••••••••••••••••••••••••••
 
 trojan://2bfded8d-6a7c-4c18-aaa5-fc65b955d50c@nnnmmkkkio.890603.xyz:443?security=tls&sni=nnnmmkkkio.890603.xyz&alpn=http%2f1.1&type=ws&host=nnnmmkkkio.890603.xyz&path=%2f7vMsF4VUuJ3dX414bl#%f0%9f%87%ba%f0%9f%87%b8%20US%2021
 
@@ -421,8 +423,6 @@ trojan://64a59181551b5773e390bd717a7b7c06@160.16.72.33:3423?security=tls&sni=www
 trojan://64a59181551b5773e390bd717a7b7c06@160.16.72.33:3423?sni=www.nintendogames.net&path=%2f#%f0%9f%87%af%f0%9f%87%b5%20JP%209
 
 trojan://64a59181551b5773e390bd717a7b7c06@58.152.53.227:443?security=tls&sni=www.nintendogames.net&path=%2f#%f0%9f%87%ad%f0%9f%87%b0%20HK%201
-
-trojan://64a59181551b5773e390bd717a7b7c06@58.152.53.227:443?sni=www.nintendogames.net&path=%2f#%f0%9f%87%ad%f0%9f%87%b0%20HK%203
 
 hysteria2://37afff84-34bd-4db6-b24a-7d73d2ed48ce@107.173.127.166:25000?insecure=1&sni=www.apple.com#yandex-99
 
