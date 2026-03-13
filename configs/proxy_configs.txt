@@ -74,8 +74,6 @@ vless://0665cf1e-0df8-4981-a8de-a366e37c0866@104.18.15.19:8443?path=%2F%3Fed%3D%
 
 vless://07cd9dbe-21ac-4871-817d-c772687e4b7c@178.17.59.73:2053?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=chrome&sni=www.ibm.com&pbk=WckOSneVajAzpH0sZSAFAWPnmwuuEXKZrTICNj5_hHU&sid=423bccc9c13fb509#@chillguy_vpn
 
-vless://07cd9dbe-21ac-4871-817d-c772687e4b7c@37.16.74.19:2053?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.ibm.com&fp=chrome&pbk=WckOSneVajAzpH0sZSAFAWPnmwuuEXKZrTICNj5_hHU&sid=4a5b6c7d&type=tcp&headerType=none#%20
-
 vless://081efe27-f6b8-4f60-aedb-3c9effe9c67d@162.159.152.17:443?allowInsecure=1&alpn=http%2F1.1&encryption=none&host=80bab3a2.gon-7ye.pages.dev&path=%2F&security=tls&sni=80bab3a2.gon-7ye.pages.dev&type=ws#%3E%3E%40oneclickvpnkeys%3A%3AUS
 
 vless://081efe27-f6b8-4f60-aedb-3c9effe9c67d@poe.com:443?path=%2F&security=tls&alpn=http%2F1.1&encryption=none&insecure=1&host=80bab3a2.gon-7ye.pages.dev&type=ws&allowInsecure=1&sni=80bab3a2.gon-7ye.pages.dev#%3E%3E%40outline_vpn%3A%3AUS
@@ -143,6 +141,8 @@ vless://0fd6389a-acb9-48b4-8d2c-63edc5dbc4ba@135.181.205.220:31421?security=none
 vless://1027b850-de79-4a94-b337-eccdac28e141@144.24.126.26:443?allowInsecure=1&encryption=none&host=g.sandesh.qzz.io&path=%2Fvless&security=tls&sni=g.sandesh.qzz.io&type=ws#%3E%3E%40oneclickvpnkeys%3A%3AIN
 
 vless://1027b850-de79-4a94-b337-eccdac28e141@g.sandesh.qzz.io:443/?type=ws&encryption=none&flow=&host=g.sandesh.qzz.io&path=%2Fvless&security=tls&sni=g.sandesh.qzz.io&allowInsecure=1#%3E%3E%40oneclickvpnkeys%3A%3AIN
+
+vless://11beaf11-726d-4c11-8ce9-27308c1c608c@157.173.127.225:443?security=reality&encryption=none&pbk=v3EwzA9RIIh5Ndxm-gypRY6RCJhOpQ-2WO7KaH8nsC8&headerType=none&fp=random&spx=%2FT.me%2FProxyVPN11-T.me%2FProxyVPN11-T.me%2FProxyVPN11-T.me%2FProxyVPN11-T.me%2FProxyVPN11-T.me%2FProxyVPN11-T.me%2FProxyVPN11-T.me%2FProxyVPN11&type=tcp&sni=analytics.google.com&sid=eab26c4a32#%F0%9F%94%86%20Tel%20%3A%20%40ProxyVPN11%20%E2%9F%B5
 
 ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206QVNNa0N3L1NNQThNelpLOHR2NXZOdz09OkFTTWtDdy9TTUE4TXpaSzh0djV2Tnc9PQ@142.171.65.106:8388#%3E%3E%40oneclickvpnkeys%3A%3AUS
 
@@ -331,6 +331,8 @@ trojan://POORIARED@172.67.134.185:443?path=%2FeyJqdW5rIjoiVUl6eXhLZkkwUTJ3ZzkiLC
 
 trojan://T9BpZIVMNv@sweden.vmaxpanel.com:8443?security=tls&sni=sweden.vmaxpanel.com&fp=chrome&type=ws&path=%2famd#%f0%9f%87%ba%f0%9f%87%b8%20US%20120
 
+trojan://b65cbe72-59e2-4011-a22b-760621b5921f@65.109.129.120:80?security=tls&headerType=none&type=tcp&sni=fl.configasli.xyz#%40v2rayconfigamir%203614
+
 trojan://bIa-DailY_cOnFIgs@104.17.97.5:2053#ShineNET%20VPN
 
 trojan://c558328b-eb46-424c-b9e0-574770f0b072@bmk.xx8.ccwu.cc:443?security=tls&sni=bmk.xx8.ccwu.cc&alpn=http%2f1.1&type=ws&host=bmk.xx8.ccwu.cc&path=%2fks4McWjhV7bXNC0BXGtJ&allow_insecure=0#%f0%9f%87%ba%f0%9f%87%b8%20US%206
@@ -372,6 +374,8 @@ trojan://f389ed926e512e15f382dc3804029474@160.16.106.99:4937?sni=www.nintendogam
 trojan://f389ed926e512e15f382dc3804029474@160.16.72.205:3057?sni=www.nintendogames.net&path=%2f#%f0%9f%87%af%f0%9f%87%b5%20JP%203
 
 trojan://f389ed926e512e15f382dc3804029474@160.16.85.33:4937?security=tls&sni=www.nintendogames.net&type=tcp&path=%2f#%f0%9f%87%af%f0%9f%87%b5%20JP%201
+
+trojan://freedom@irancell.buzzmuzzpanel.online:443?path=%2FeyJqdW5rIjoienRVUEM4N2p6dXE2Wm0iLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119%3Fed%3D2560&security=tls&alpn=http%2F1.1&insecure=0&host=047.electrocellco-cf-047.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=047.eleCTROCelLco-Cf-047.woRkers.DEV#[🇨🇦]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ: #ᴄᴀɴᴀᴅᴀ(ᴄᴀ)ᴄᴏɴғɪɢsʜᴜʙ ₪ ᴀʀɪʏᴀ ₪ ʙᴏᴛ ₪ ʜᴇʟᴘ
 
 trojan://humanity@104.17.131.88:443?allowInsecure=1&host=www.gossipglove.com&path=%2Fassignment&sni=www.gossipglove.com&type=ws#%3E%3E%40oneclickvpnkeys%3A%3AFR
 
@@ -420,10 +424,6 @@ trojan://humanity@172.64.152.23:443?path=%2Fassignment&security=tls&alpn=h2%2Cht
 trojan://humanity@172.64.152.23:443?path=%2Fassignment&security=tls&alpn=h2%2Chttp%2F1.1&insecure=0&host=www.creationlong.org&fp=chrome&type=ws&allowInsecure=0&sni=www.creationlong.org#%F0%9F%87%BA%F0%9F%87%B8%20ShatakVPN%20729999
 
 trojan://humanity@172.64.152.23:443?path=%2Fassignment&security=tls&alpn=h2%2Chttp%2F1.1&insecure=0&host=www.creationlong.org&fp=chrome&type=ws&allowInsecure=0&sni=www.creationlong.org#4Kian-4662
-
-trojan://humanity@172.64.152.23:443?path=%2Fassignment&security=tls&fp=chrome&type=ws&sni=www.multiplydose.com#4Kian-4663
-
-trojan://humanity@172.64.152.23:443?path=%2Fassignment&security=tls&host=www.creationlong.org&type=ws&sni=www.creationlong.org#%3E%3E%40vmess_vless_v2rayng%3A%3APL
 
 hysteria2://37afff84-34bd-4db6-b24a-7d73d2ed48ce@107.173.127.166:25000?insecure=1&sni=www.apple.com#yandex-99
 
