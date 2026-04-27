@@ -32,8 +32,6 @@ vless://0665cf1e-0df8-4981-a8de-a366e37c0866@104.18.15.19:8443?path=%2F%3Fed%3D%
 
 vless://06ef598c-1555-4887-b3f9-08214a2f6792@104.17.72.206:443?allowInsecure=1&encryption=none&host=2026.hhhhh.eu.org&security=tls&sni=2026.hhhhh.eu.org&type=ws#%3E%3E%40oneclickvpnkeys%3A%3AUS
 
-vless://06ef598c-1555-4887-b3f9-08214a2f6792@104.17.72.206:443?path=%2F222.167.202.31%3A7443&security=tls&encryption=none&insecure=0&host=2026.hhhhh.eu.org&fp=chrome&type=ws&allowInsecure=0&sni=2026.hhhhh.eu.org#telegram%3A%F0%9F%9F%A2t.me%2FConfig0plus
-
 vless://06ef598c-1555-4887-b3f9-08214a2f6792@104.17.72.206:443?path=%2F222.167.202.31%3A7443&security=tls&encryption=none&insecure=0&host=2026.hhhhh.eu.org&type=ws&allowInsecure=0&sni=2026.hhhhh.eu.org#`@mtproto_proserver
 
 vless://06ef598c-1555-4887-b3f9-08214a2f6792@104.18.16.56:443?path=%2F222.167.202.31%3A7443&security=tls&encryption=none&host=2026.hhhhh.eu.org&type=ws&sni=2026.hhhhh.eu.org#Telegram%3A++%40Zero_Tunnel+7
@@ -41,6 +39,10 @@ vless://06ef598c-1555-4887-b3f9-08214a2f6792@104.18.16.56:443?path=%2F222.167.20
 vless://06ef598c-1555-4887-b3f9-08214a2f6792@104.18.16.56:443?path=%2F222.167.202.31%3A7443&security=tls&encryption=none&insecure=0&host=2026.hhhhh.eu.org&type=ws&allowInsecure=0&sni=2026.hhhhh.eu.org#%3E%3E%40prrofile_purple%3A%3AUS
 
 vless://06ef598c-1555-4887-b3f9-08214a2f6792@104.18.16.56:443?path=%2F222.167.202.31%3A7443&security=tls&encryption=none&insecure=0&host=2026.hhhhh.eu.org&type=ws&allowInsecure=0&sni=2026.hhhhh.eu.org#%40v2ray_configs_pools
+
+vless://06ef598c-1555-4887-b3f9-08214a2f6792@104.20.6.134:443?encryption=none&security=tls&sni=2026.hhhhh.eu.org&fp=firefox&alpn=http%2F1.1&insecure=0&allowInsecure=0&type=ws&host=2026.hhhhh.eu.org&path=%2F222.167.202.31%3A7443#T.me%2FMiTiVPN%205
+
+vless://06ef598c-1555-4887-b3f9-08214a2f6792@104.20.6.134:443?encryption=none&type=ws&host=2026.hhhhh.eu.org&path=/222.167.202.31:7443&security=tls&fp=firefox&sni=2026.hhhhh.eu.org&alpn=http/1.1#@aloconfig_com
 
 vless://06ef598c-1555-4887-b3f9-08214a2f6792@104.20.6.134:443?security=tls&allowInsecure=0&encryption=none&type=ws&host=2026.hhhhh.eu.org&path=/222.167.202.31:7443&sni=2026.hhhhh.eu.org&fp=firefox&alpn=http/1.1#%3E%3E%40ultrasurf_12%3A%3AUS
 
@@ -141,8 +143,6 @@ vless://12d75b7d-8fdf-4785-8d62-d836854e7e63@104.18.32.47:2052?encryption=none&h
 vless://12d75b7d-8fdf-4785-8d62-d836854e7e63@172.64.155.209:2052/?type=ws&encryption=none&flow=&host=parking-nfchbwa1-v2.parking-1ab.workers.dev&path=%2F#%3E%3E%40oneclickvpnkeys%3A%3AUS
 
 vless://13ad36e6-c091-43f2-8505-47d868dd544c@ghj.ae1autumn.cc.cd:80?&sni=ghj.ae1autumn.cc.cd&type=ws&headerType=none&host=ghj.ae1autumn.cc.cd&path=%2FXR8So0uqFVa3vY9ZbxgW4#%E6%9C%AA%E7%9F%A5_0220044718
-
-vless://14c80e0e-f7ce-4991-94fc-99a1db4a9b1e@159.89.87.21:28190?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno&security=reality&sni=aws.amazon.com&type=tcp#%3E%3E%40oneclickvpnkeys%3A%3AUS
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0MmQyYjQ3MTgxYTMyZGU3@154.26.132.38:16922#%f0%9f%87%b8%f0%9f%87%ac%20SG%2012
 
@@ -318,8 +318,6 @@ trojan://1234567890@134.122.84.25:2096?allowInsecure=1&fp=chrome&host=kfm-bn0.pa
 
 trojan://1234567890@134.122.84.25:8443?allowInsecure=1&ed=2560&eh=Sec-WebSocket-Protocol&host=kfm-bn0.pages.dev&path=%2F%3Fhttps%253A%252F%252Ft.me%252FWangCai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D&sni=kfm-bn0.pages.dev&type=ws#%3E%3E%40oneclickvpnkeys%3A%3ADE
 
-trojan://1234567890@134.122.84.25:8443?allowInsecure=1&ed=2560&eh=Sec-WebSocket-Protocol&host=kfm-bn0.pages.dev&path=%2F%3Fhttps%253A%252F%252Ft.me%252FWangCai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D&sni=kfm-bn0.pages.dev&type=ws#%F0%9F%90%9E12@oneclickvpnkeys
-
 trojan://1234567890@134.209.224.221:2087?allowInsecure=1&host=kfm-bn0.pages.dev&path=%2F%3Fhttps%253A%252F%252Ft.me%252FWangCai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D&sni=kfm-bn0.pages.dev&type=ws#%3E%3E%40oneclickvpnkeys%3A%3ADE
 
 trojan://1234567890@134.209.224.221:2096?allowInsecure=1&host=kfm-bn0.pages.dev&path=%2F%3Fhttps%253A%252F%252Ft.me%252FWangCai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D&sni=kfm-bn0.pages.dev&type=ws#%3E%3E%40oneclickvpnkeys%3A%3ADE
@@ -344,7 +342,7 @@ trojan://1234567890@142.93.102.20:443?allowInsecure=1&host=kfm-bn0.pages.dev&pat
 
 trojan://1234567890@144.31.118.170:443?allowInsecure=1&host=kfm-bn0.pages.dev&path=%2F%3Fhttps%253A%252F%252Ft.me%252FWangCai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D&sni=kfm-bn0.pages.dev&type=ws#%3E%3E%40oneclickvpnkeys%3A%3ADE
 
-trojan://1234567890@144.31.118.170:443?security=tls&sni=kfm-bn0.pages.dev&type=ws&host=kfm-bn0.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#v2ray_dalghak
+trojan://1234567890@144.31.139.103:443?allowInsecure=1&host=kfm-bn0.pages.dev&path=%2F&sni=kfm-bn0.pages.dev&type=ws#[🇩🇪]t.me/ConfigsHubᴄᴏᴜɴᴛʀʏ: #ɢᴇʀᴍᴀɴʏ(ᴅᴇ)ᴄᴏɴғɪɢsʜᴜʙ ₪ ᴀʀɪʏᴀ ₪ ʙᴏᴛ ₪ ʜᴇʟᴘ
 
 trojan://1234567890@144.31.191.159:8443?security=tls&sni=kfm-bn0.pages.dev&type=ws&host=kfm-bn0.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#%3E%3E%40configshub2%3A%3APL
 
@@ -365,6 +363,8 @@ trojan://1234567890@152.53.236.205:443?security=tls&sni=kfm-bn0.pages.dev&type=w
 trojan://1234567890@158.180.49.11:2053?allowInsecure=1&ed=2560&eh=Sec-WebSocket-Protocol&host=kfm-bn0.pages.dev&path=%2F%3Fhttps%253A%252F%252Ft.me%252FWangCai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D&sni=kfm-bn0.pages.dev&type=ws#%3E%3E%40oneclickvpnkeys%3A%3ADE
 
 trojan://1234567890@159.195.5.181:443?allowInsecure=1&host=kfm-bn0.pages.dev&path=%2F%3Fhttps%253A%252F%252Ft.me%252FWangCai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D&sni=kfm-bn0.pages.dev&type=ws#%3E%3E%40oneclickvpnkeys%3A%3ADE
+
+trojan://1234567890@159.195.79.8:8443?security=tls&sni=kfm-bn0.pages.dev&type=ws&host=kfm-bn0.pages.dev&path=%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3#v2ray_dalghak
 
 trojan://1234567890@159.69.178.173:8443?allowInsecure=1&ed=2560&eh=Sec-WebSocket-Protocol&host=kfm-bn0.pages.dev&path=%2F%3Fhttps%253A%252F%252Ft.me%252FWangCai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D&sni=kfm-bn0.pages.dev&type=ws#%3E%3E%40oneclickvpnkeys%3A%3ADE
 
@@ -418,11 +418,11 @@ trojan://1234567890@23.88.112.241:2053?allowInsecure=1&host=kfm-bn0.pages.dev&pa
 
 trojan://1234567890@3.73.6.186:2053?allowInsecure=1&ed=2560&eh=Sec-WebSocket-Protocol&host=kfm-bn0.pages.dev&path=%2F%3Fhttps%253A%252F%252Ft.me%252FWangCai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D&sni=kfm-bn0.pages.dev&type=ws#%3E%3E%40oneclickvpnkeys%3A%3ADE
 
-trojan://1234567890@3.73.6.186:2053?allowInsecure=1&ed=2560&eh=Sec-WebSocket-Protocol&host=kfm-bn0.pages.dev&path=%2F%3Fhttps%253A%252F%252Ft.me%252FWangCai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D&sni=kfm-bn0.pages.dev&type=ws#%F0%9F%90%9E36@oneclickvpnkeys
-
 trojan://1234567890@45.77.141.166:2053?allowInsecure=1&ed=2560&eh=Sec-WebSocket-Protocol&host=kfm-bn0.pages.dev&path=%2F%3Fhttps%253A%252F%252Ft.me%252FWangCai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D&sni=kfm-bn0.pages.dev&type=ws#%3E%3E%40oneclickvpnkeys%3A%3ADE
 
 trojan://1234567890@46.101.239.26:443?allowInsecure=1&host=kfm-bn0.pages.dev&path=%2F%3Fhttps%253A%252F%252Ft.me%252FWangCai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D&sni=kfm-bn0.pages.dev&type=ws#%3E%3E%40oneclickvpnkeys%3A%3ADE
+
+trojan://1234567890@46.101.246.237:2083?allowInsecure=1&ed=2560&eh=Sec-WebSocket-Protocol&host=kfm-bn0.pages.dev&path=%2F%3Fhttps%253A%252F%252Ft.me%252FWangCai2%25F0%259F%2587%25A8%25F0%259F%2587%25B3%3D&sni=kfm-bn0.pages.dev&type=ws#%3E%3E%40oneclickvpnkeys%3A%3ADE
 
 hysteria2://123456789StrongPass@144.31.224.14:443/?insecure=1&sni=www.cloudflare.com#%3E%3E%40oneclickvpnkeys%3A%3ANL
 
