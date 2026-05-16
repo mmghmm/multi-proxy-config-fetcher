@@ -24,8 +24,6 @@ vless://0331b690-79fc-49d5-85f0-54faa4eff89f@go.adslimit.info:2345?encryption=no
 
 vless://0331b690-79fc-49d5-85f0-54faa4eff89f@go.adslimit.info:2345?security=none&amp;encryption=none&amp;headerType=none&amp;type=tcp#4Kian-5161
 
-vless://0486a1b5-a851-4f65-a65d-cf8ad63c9791@185.24.253.108:443?security=tls&type=xhttp&headerType=&path=&host=cdn.gapfilm.org&mode=auto&extra=%7B%22scMaxEachPostBytes%22%3A+1000000%2C+%22scMaxConcurrentPosts%22%3A+100%2C+%22scMinPostsIntervalMs%22%3A+30%2C+%22xPaddingBytes%22%3A+%22100-1000%22%2C+%22noGRPCHeader%22%3A+false%7D&sni=cdn.gapfilm.org&fp=chrome&pcs=610792abc1380f3fe53381ed3ba0c1a6a71a893755106d729b9d80e5930ae8be&allowInsecure=1#filembad-15  🚀 Need a premium VPN config? Try 👉 @failvpn_bot
-
 vless://049e56d8-0ba0-49e3-b764-ee04122b9f00@ov-italy1.09vpn.com:80?encryption=none&type=ws&path=%2fvless%2f#%f0%9f%87%ae%f0%9f%87%b9%20IT%204
 
 vless://051b4552-b516-485c-b4a0-fe18ab4ec7ee@185.117.0.185:651?mode=gun&security=reality&encryption=none&pbk=H2pJZSjdIazQ9BxTgd9li6XWWj2TaXPfXEZWrL5yS34&fp=firefox&type=grpc&sni=www.stackoverflow.com&sid=86ba053c74aaba8e#Telegram%20%40Ettehad_vpn%20%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%20%D9%88%DB%8C%E2%80%8C%D9%BE%DB%8C%E2%80%8C%D8%A7%D9%86
@@ -43,6 +41,8 @@ vless://0b7cc164-bde5-4587-9fa6-c5a9dcdfcae3@tun.thuglife.ir:1993?security=none&
 vless://0c6b96bc-5e3a-4500-8497-6dead1965609@172.67.219.254:443?encryption=none&security=tls&sni=A3B87cD8-6088-491d-89A7-ec62507C904f.661.Qzz.IO&type=ws&host=A3B87cD8-6088-491D-89a7-EC62507c904F.661.QZZ.io&path=%2FQMV9N8sI6UlesbbZ1wwDhJ3#CF%E4%B8%AD%E8%BD%AC_0220044193
 
 vless://0ce9c947-467f-49ea-9749-077229bf361d@nl-race.connfull.org:443?security=tls&encryption=none&type=ws&path=%2fws#%f0%9f%87%b3%f0%9f%87%b1%20NL%2053
+
+vless://0ee9b973-b31c-49de-a382-a440623943a1@hi-trex.docos.tech:443?path=%2Fvless-ws&security=tls&encryption=none&insecure=1&host=hi-trex.docos.tech&fp=chrome&type=ws&allowInsecure=1&sni=hi-trex.docos.tech#filembad-31  🚀 Need a premium VPN config? Try 👉 @failvpn_bot
 
 vless://0f4d41cf-0be1-4fcc-ac41-53b843ba0752@h7-83w.pages.dev:2053?security=tls&sni=H7-83W.pAgeS.deV&type=ws&headerType=none&host=H7-83W.pAgeS.deV&path=%2f#%f0%9f%87%ba%f0%9f%87%b8%20US%2034
 
@@ -397,8 +397,6 @@ trojan://humanity@104.18.32.47:443?path=%2Fassignment&security=tls&insecure=0&ho
 
 trojan://humanity@104.18.32.47:443?path=%2Fassignment&security=tls&insecure=0&host=www.multiplydose.com&type=ws&allowInsecure=0&sni=www.multiplydose.com#hamedp71%3A%3A%F0%9F%87%B3%F0%9F%87%B1
 
-trojan://humanity@104.20.6.134:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.creationlong.org#v2ray_dalghak
-
 trojan://humanity@104.20.6.134:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&insecure=0&host=www.calmloud.com&fp=chrome&type=ws&allowInsecure=0&sni=www.calmloud.com#%3E%3E%40prrofile_purple%3A%3AFR
 
 trojan://humanity@104.21.40.34:443?path=%2Fassignment&security=tls&insecure=1&host=www.gossipglove.com&type=ws&allowInsecure=1&sni=www.gossipglove.com#%3E%3E%40FreakConfig%3A%3ANL
@@ -424,6 +422,8 @@ trojan://humanity@172.64.152.23:443?encryption=none&security=tls&sni=www.multipl
 trojan://humanity@172.64.152.23:443?path=%2Fassignment&security=tls&alpn=h2%2Chttp%2F1.1&insecure=0&host=www.creationlong.org&fp=chrome&type=ws&allowInsecure=0&sni=www.creationlong.org#%3E%3E%40FreakConfig%3A%3APL
 
 trojan://humanity@172.64.152.23:443?path=%2Fassignment&security=tls&alpn=h2%2Chttp%2F1.1&insecure=0&host=www.creationlong.org&fp=chrome&type=ws&allowInsecure=0&sni=www.creationlong.org#%F0%9F%87%BA%F0%9F%87%B8%20ShatakVPN%20729999
+
+trojan://humanity@172.64.152.23:443?path=%2Fassignment&security=tls&alpn=h2%2Chttp%2F1.1&insecure=0&host=www.creationlong.org&fp=chrome&type=ws&allowInsecure=0&sni=www.creationlong.org#4Kian-4662
 
 hysteria2://37afff84-34bd-4db6-b24a-7d73d2ed48ce@107.173.127.166:25000?insecure=1&sni=www.apple.com#yandex-99
 
