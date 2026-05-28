@@ -12,6 +12,8 @@ vless://0194f069-ebfd-49c2-b90f-bd9b1412c2b0@104.19.234.170:443?&security=tls&fp
 
 vless://01c0530f-168d-4645-a74c-f2b3b015c217@104.244.73.115:2053?encryption=none&type=tcp&security=reality&headerType=none&sni=patreon.com&fp=chrome&allowInsecure=1&pbk=pFRfJJDY6TYJq-OVgAqFXhdaeur7gJWJM-RZT8g8yAA&sid=b85e293fa1&flow=xtls-rprx-vision#%40Anthony
 
+vless://01ef96b4-e7ec-4218-8ffe-a59e1cdfd836@downlod.musicribvar.com:45029?type=tcp&path=%2F#%40Moftconfig%20%F0%9F%87%AB%F0%9F%87%AE%20%E2%8F%B1358ms
+
 vless://02b320ce-09f8-4cb5-9c46-9024f5585881@free1.barayekhudam.ir:2255/?type=tcp&encryption=none&flow=&sni=radar.arvancloud.ir&fp=firefox&security=reality&pbk=Cs7yLk8XXPksSjf6GB1JFYyFICqWVL3nL-10K7jQ7xc&sid=983c9303725c67#%
 
 vless://0331b690-79fc-49d5-85f0-54faa4eff89f@54.38.214.29:2345?encryption=none&security=none&type=tcp&headerType=none#%40V2ray_confiig`
@@ -36,9 +38,9 @@ vless://06b65903-406d-4a41-8463-6fd5c0ee7798@43.169.18.179:443?encryption=none&f
 
 vless://06b65903-406d-4a41-8463-6fd5c0ee7798@43.169.18.179:443?encryption=none&type=ws&security=tls&path=%2F&host=sni.skylee4.cloudns.ch&sni=sni.skylee4.cloudns.ch&fp=chrome&allowInsecure=0#@V2raysCollector
 
-vless://06b65903-406d-4a41-8463-6fd5c0ee7798@43.169.18.179:443?path=%2Fproxyip%3DProxyIP.CMLiussss.net&security=tls&encryption=none&insecure=1&host=sni.skylee4.cloudns.ch&fp=chrome&type=ws&allowInsecure=1&sni=sni.skylee4.cloudns.ch#v2ray_dalghak
+vless://06b65903-406d-4a41-8463-6fd5c0ee7798@43.169.18.179:443?path=%2F&security=tls&encryption=none&insecure=1&host=sni.skylee4.cloudns.ch&fp=chrome&type=ws&allowInsecure=1&sni=sni.skylee4.cloudns.ch#v2ray_dalghak
 
-vless://06b65903-406d-4a41-8463-6fd5c0ee7798@43.169.18.179:443?path=%2Fproxyip&security=tls&encryption=none&insecure=0&host=sni.skylee4.cloudns.ch&fp=chrome&type=ws&allowInsecure=0&sni=sni.skylee4.cloudns.ch#v2ray_dalghak
+vless://06b65903-406d-4a41-8463-6fd5c0ee7798@43.169.18.179:443?path=%2Fproxyip%3DProxyIP.CMLiussss.net&security=tls&encryption=none&insecure=1&host=sni.skylee4.cloudns.ch&fp=chrome&type=ws&allowInsecure=1&sni=sni.skylee4.cloudns.ch#v2ray_dalghak
 
 vless://08cb0591-5193-4a0c-9105-ceb09fba67fe@www.speedtest.net:2053?path=%2F&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&insecure=1&host=CCWtV-16202.phoenixappdatai.uk&fp=chrome&type=ws&allowInsecure=1&sni=CCWtV-16202.phoenixappdatai.uk#%40Filter_breaker
 
@@ -51,8 +53,6 @@ vless://0b7cc164-bde5-4587-9fa6-c5a9dcdfcae3@tun.thuglife.ir:1993?security=none&
 vless://0c6b96bc-5e3a-4500-8497-6dead1965609@172.67.219.254:443?encryption=none&security=tls&sni=A3B87cD8-6088-491d-89A7-ec62507C904f.661.Qzz.IO&type=ws&host=A3B87cD8-6088-491D-89a7-EC62507c904F.661.QZZ.io&path=%2FQMV9N8sI6UlesbbZ1wwDhJ3#CF%E4%B8%AD%E8%BD%AC_0220044193
 
 vless://0d2d9c3b-76d1-4ebe-9615-e1de1e56dd8f@217.198.190.20:55992?type=tcp&path=%2F#%40Moftconfig%20%F0%9F%87%A9%F0%9F%87%AA%20%E2%8F%B1366ms
-
-vless://0d2d9c3b-76d1-4ebe-9615-e1de1e56dd8f@217.198.190.20:55992?type=tcp&path=%2F#%40Moftconfig%20%F0%9F%87%A9%F0%9F%87%AA%20%E2%8F%B1405ms
 
 vless://0d2d9c3b-76d1-4ebe-9615-e1de1e56dd8f@217.198.190.20:55992?type=tcp&path=%2F#%40Moftconfig%20%F0%9F%87%A9%F0%9F%87%AA%20%E2%8F%B1408ms
 
@@ -116,6 +116,8 @@ vless://16068e83-af4c-49ba-8048-98fcff3e5e7b@afrcloud22.mmv.kr:443?path=%2F131.1
 
 vless://160e9c18-c548-42bf-9c00-905aed8ef96f@43.250.54.155:49000/?type=grpc&encryption=none&flow=&serviceName=dropbox.com&sni=google.com&fp=chrome&security=reality&pbk=2K2NO2jXF45pA0-eUobqo-gnur61TadbWD4B93Zl_Vc&sid=170f8a2036#%F0%9F%87%B3%F0%9F%87%B1%40FREE2CONFIG%20
 
+vless://1619d803-5d2c-4d4c-8606-6dbadc4de12d@snapp.ir:80?path=%2F&security=none&encryption=none&host=hoosh.sabasarmaye.ir&type=ws#filembad-49  🚀 Need a premium VPN config? Try 👉 @failvpn_bot
+
 vless://179ddf63-c263-40ff-98a1-f53708573059@188.40.210.8:1083?encryption=none&type=tcp&headerType=none&host=188.40.210.8#Join+Telegram:@Farah_VPN
 
 vless://1a25f8ad-cad2-4e93-b5bf-34e42bcac02a@25.129.197.138:2096?path=%2F%3Fed%3D%23TELEGRAM-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-VPN_SKY-%3Fed%3D512&security=tls&encryption=none&host=sni.111000.dns.army&type=ws&sni=sni.111000.dns.army#ShineNET%20VPN
@@ -142,7 +144,7 @@ vless://1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63@108.162.194.176:443?encryption=none
 
 vless://1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63@brenna.ns.cloudflare.com:443?encryption=none&security=tls&sni=terazhedi.info&insecure=0&allowInsecure=0&type=ws&host=terazhedi.info&path=%2Fsghiyws#%40Daily_Configs
 
-vless://1b6c4b21-8f28-43ba-9b33-37991d9d3572@158.160.198.23:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=tradingview.com&fp=chrome&security=reality&pbk=zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04&sid=c6ef72e4635d15a5#%F0%9F%87%B9%F0%9F%87%B7%40FREE2CONFIG%20
+ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206bXpJcGZIb1ZIL1hybmszY3VTYjlhdz09OkJuQUgzVjBMTkg0dWZ5eW1HdW1Ua1E9PQ@5.160.47.211:8443#NetMeli9-1  🚀 Need a premium VPN config? Try 👉 @failvpn_bot
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0MmQyYjQ3MTgxYTMyZGU3@154.26.132.38:16922#HP71
 
@@ -205,6 +207,10 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ=@r3mrcg007134n4g.cybervena.com:50099#%3E%3E%40v2nodes%3A%3AXX
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@111.248.85.245:50099#%40Moftconfig%20%F0%9F%87%B9%F0%9F%87%BC%20%E2%8F%B12773ms
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@111.248.85.245:50099#%40Moftconfig%20%F0%9F%87%B9%F0%9F%87%BC%20%E2%8F%B1714ms
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@111.248.88.150:50099#%40Moftconfig%20%F0%9F%87%B9%F0%9F%87%BC%20%E2%8F%B1715ms
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@111.248.88.150:50099#%40Moftconfig%20%F0%9F%87%B9%F0%9F%87%BC%20%E2%8F%B1837ms
 
@@ -278,12 +284,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxNWIwNTczODMwMDgxZDAx@51.89.119.213:11201#MC
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@193.29.139.143:8080#%3E%3E%40oneclickvpnkeys%3A%3ANL
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@45.87.175.157:8080#hamedp71%3A%3A%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YzFmNzRjZGM1MWQ1@91.106.109.17:48210#HP71
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YzFmNzRjZGM1MWQ1@91.106.109.17:48211#HP71
-
 trojan://%3AU%5D2hAN7Y%5BKa0Eb_@104.17.148.22:8443?path=%2Ftre6QQRE1ue6YL7k30%2FNzIuMTMuMTIyLjEzNw&security=tls&insecure=0&host=TEst-63W.PaGEs.deV&type=ws&allowInsecure=0&sni=TEst-63W.PaGEs.deV#none
 
 trojan://%3AU%5D2hAN7Y%5BKa0Eb_@www.speedtest.net:8443?type=ws&security=tls&path=%2Ftre6QQRE1ue6YL7k30%2FNzIuMTMuMTIyLjEzNw&host=TEst-63W.PaGEs.deV&sni=TEst-63W.PaGEs.deV&allowInsecure=1#%40Anthony
@@ -297,6 +297,8 @@ trojan://03mpolj39zyewzufal2r@51.75.86.196:55646?security=tls&type=tcp&headerTyp
 trojan://1710442808@188.114.98.0:443?allowInsecure=1&host=subb.nrshop198.workers.dev&path=%2F&sni=subb.nrshop198.workers.dev&type=ws#%3E%3E%40oneclickvpnkeys%3A%3AUS
 
 trojan://1e32fe52198848788f029c2ec244f347@212.192.14.227:9443/?type=tcp&sni=ya.ru&fp=random&security=reality&pbk=GooqN94J-NNbWxkVsDb7NIQW4xXhkMGByk58ihKwX1Q&sid=aabbccdd#%F0%9F%87%B7%F0%9F%87%BA%40FREE2CONFIG%20
+
+trojan://2238e2f3-1a01-485e-8c22-24b65764c68b@172.64.152.23:443?path=%2F51.91.253.83&security=tls&insecure=0&host=gzjx.dpdns.org&type=ws&allowInsecure=0&sni=gzjx.dpdns.org#canfingV2rayNG-18  🚀 Need a premium VPN config? Try 👉 @failvpn_bot
 
 trojan://2399fe0a-b359-40a9-a3f0-b70c3c177a01@cloudflare-ip.mofashi.ltd:443?type=ws&host=aa.beijng.dpdns.org&path=/?ed=2048&security=tls&sni=aa.beijng.dpdns.org#%3E%3E%40v2ray_configs_pool%3A%3AUS
 
@@ -407,23 +409,21 @@ trojan://f2191442-1436-3d79-801e-80d8de896c73@104.21.66.223:443?sni=jp2-july.888
 
 trojan://gcuCpQfaiVeDBdWG@jpbgp.netvigor.cc:19128?security=tls&sni=yazhou10.dynu.net&type=tcp&headerType=none#VL-0303-043
 
+trojan://gcuCpQfaiVeDBdWG@jpbgp.netvigor.cc:19128?type=tcp&security=tls&sni=yazhou10.dynu.net&path=%2F#%40Moftconfig%20%E2%8F%B11993ms
+
 trojan://gcuCpQfaiVeDBdWG@jpbgp.netvigor.cc:19128?type=tcp&security=tls&sni=yazhou10.dynu.net&path=%2F#%40Moftconfig%20%E2%8F%B12175ms
 
 trojan://gcuCpQfaiVeDBdWG@jpbgp.netvigor.cc:19128?type=tcp&security=tls&sni=yazhou10.dynu.net&path=%2F#%40Moftconfig%20%E2%8F%B12272ms
 
 trojan://gcuCpQfaiVeDBdWG@jpbgp.netvigor.cc:19128?type=tcp&security=tls&sni=yazhou10.dynu.net&path=%2F#%40Moftconfig%20%E2%8F%B13852ms
 
+trojan://gcuCpQfaiVeDBdWG@jpbgp.netvigor.cc:19128?type=tcp&security=tls&sni=yazhou10.dynu.net&path=%2F#%40Moftconfig%20%E2%9A%A11993ms
+
 trojan://gcuCpQfaiVeDBdWG@jpbgp.netvigor.cc:19128?type=tcp&security=tls&sni=yazhou10.dynu.net&path=%2F#%40Moftconfig%20%E2%9A%A12175ms
 
 trojan://gcuCpQfaiVeDBdWG@jpbgp.netvigor.cc:19128?type=tcp&security=tls&sni=yazhou10.dynu.net&path=%2F#%40Moftconfig%20%E2%9A%A12272ms
 
 trojan://humanity@104.16.147.104:443?host=www.creationlong.org&path=%2Fassignment&sni=www.creationlong.org&type=ws#%3E%3E%40oneclickvpnkeys%3A%3APL
-
-trojan://humanity@104.16.7.70:443?type=ws&security=tls&path=%2Fassignment&host=www.calmlunch.com&sni=www.calmlunch.com&allowInsecure=0#%40Anthony
-
-trojan://humanity@104.17.150.76:443?alpn=http%2F1.1&host=www.calmloud.com&path=%2Fassignment&sni=www.calmloud.com&type=ws#%3E%3E%40oneclickvpnkeys%3A%3AFR
-
-trojan://humanity@104.18.11.110:443?host=www.multiplydose.com&path=%2Fassignment&sni=www.multiplydose.com&type=ws#%3E%3E%40configshub2%3A%3ANL
 
 hysteria2://37afff84-34bd-4db6-b24a-7d73d2ed48ce@107.173.127.166:25000?insecure=1&sni=www.apple.com#yandex-99
 
