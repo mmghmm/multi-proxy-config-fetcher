@@ -121,7 +121,7 @@ def process_config(config_str, timeout):
         return config_str, 'alive', rtt
     return config_str, 'dead', None
 
-def ping_configs(input_file='configs/proxy_configs.txt', output_file='configs/healthy_configs.txt', timeout=3, max_workers=100, max_rtt=2000):
+def ping_configs(input_file='configs/proxy_configs.txt', output_file='configs/healthy_configs.txt', timeout=3, max_workers=100, max_rtt=3000):
     """تابع اصلی: خواندن فایل، پینگ کردن و ذخیره کانفیگ‌های سالم (فقط IPv4)"""
     logger.info(f"شروع پینگ‌گیر. در حال خواندن از {input_file}...")
     logger.info(f"تنظیمات: Timeout={timeout}s | Max Workers={max_workers} | Max RTT={max_rtt}ms")
