@@ -69,7 +69,27 @@ jobs:
     
     - name: Commit and push changes
       run: |
-        # اضافه کردن هوشمند و یکجای پوشه‌ها و فایل‌های متنی بدون ریسک خطای نبود فایل
-        git add configs/ assets/ README*.md
+        # تعریف لیست دقیق فایل‌های مجاز برای کامیت
+        files=(
+          "configs/proxy_configs.txt"
+          "configs/healthy_configs.txt"
+          "configs/singbox_configs.json"
+          "configs/channel_stats.json"
+          "assets/channel_stats_chart.svg"
+          "assets/performance_report.html"
+          "README.md"
+          "README_FA.md"
+          "README_CN.md"
+          "README_RU.md"
+        )
+        
+        # بررسی وجود هر فایل قبل از اضافه کردن به گیت
+        for file in "${files[@]}"; do
+          if [ -f "$file" ]; then
+            git add "$file"
+          fi
+        done
+        
+        # ثبت کامیت و پوش کردن تغییرات
         git commit -m "Update proxy configs, stats and reports" || echo "No changes to commit"
         git push
