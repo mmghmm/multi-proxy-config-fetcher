@@ -132,6 +132,13 @@ def ping_configs(input_file='configs/proxy_configs.txt', output_file='configs/he
             configs = [line.strip() for line in f if line.strip()]
     except FileNotFoundError:
         logger.error(f"فایل ورودی {input_file} پیدا نشد.")
+        # ساخت فایل خروجی خالی برای جلوگیری از خطای workflow
+        try:
+            with open(output_file, 'w', encoding='utf-8') as f:
+                f.write("")
+            logger.warning(f"فایل خروجی خالی {output_file} ساخته شد.")
+        except Exception as e:
+            logger.error(f"خطا در ساخت فایل خروجی: {e}")
         return
 
     logger.info(f"تعداد {len(configs)} کانفیگ برای تست پیدا شد.")
@@ -176,6 +183,10 @@ def ping_configs(input_file='configs/proxy_configs.txt', output_file='configs/he
             logger.info(f"⚠️ تعداد {dropped_slow} کانفیگ به دلیل پینگ بالاتر از {max_rtt}ms حذف شدند.")
         if dropped_ipv6 > 0:
             logger.info(f"ℹ️ تعداد {dropped_ipv6} کانفیگ IPv6 حذف شدند.")
+        
+        # هشدار اگر هیچ کانفیگی پیدا نشد
+        if len(healthy_configs) == 0:
+            logger.warning("⚠️ هیچ کانفیگ سالمی پیدا نشد! فایل خروجی خالی است.")
     except Exception as e:
         logger.error(f"خطا در نوشتن فایل {output_file}: {e}")
 
