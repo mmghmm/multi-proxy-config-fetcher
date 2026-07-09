@@ -24,27 +24,23 @@ def parse_config(config_str):
 
     try:
         if config_str.startswith('vmess://'):
-            b64_data = config_str[8:].split('?')[0] # حذف پارامترهای احتمالی بعد از علامت سوال
+            b64_data = config_str[8:].split('?')[0]
             json_str = base64.b64decode(fix_base64_padding(b64_data)).decode('utf-8')
             data = json.loads(json_str)
-            address = data.get('add', '').strip('[]') # حذف براکت‌ها اگر آی‌پی v6 بود
+            address = data.get('add', '').strip('[]')
             return 'tcp', address, int(data.get('port'))
             
         elif config_str.startswith(('vless://', 'trojan://', 'ss://', 'hysteria2://', 'hy2://', 'tuic://')):
             parsed = urlparse(config_str)
-            # استخراج هاست و پورت با امنیت بیشتر
             host_port = parsed.netloc.split('@')[-1]
             
-            # مدیریت دقیق IPv6 و پورت
             if host_port.startswith('['):
-                # فرمت: [ipv6]:port
                 match = re.match(r'\[(.*?)\]:(\d+)', host_port)
                 if match:
                     address, port = match.group(1), match.group(2)
                 else:
                     return None, None, None
             else:
-                # فرمت: ipv4:port یا domain:port
                 if ':' in host_port:
                     address, port = host_port.rsplit(':', 1)
                 else:
@@ -59,36 +55,66 @@ def parse_config(config_str):
         
     return None, None, None
 
+def resolve_dns_with_timeout(hostname, timeout=2):
+    """حل کردن نام دامنه به آی‌پی با در نظر گرفتن تایم‌اوت برای جلوگیری از بلوکه شدن ترد"""
+    # اگر ورودی از قبل آی‌پی باشد، نیازی به کارهای اضافه نیست
+    for family in (socket.AF_INET, socket.AF_INET6):
+        try:
+            socket.inet_pton(family, hostname)
+            # برگرداندن family به همراه hostname برای استفاده در ساخت سوکت
+            return family, hostname
+        except OSError:
+            continue
+            
+    # استفاده از ترفند ست کردن تایم‌اوت پیش‌فرض سوکت برای تابع getaddrinfo
+    old_timeout = socket.getdefaulttimeout()
+    socket.setdefaulttimeout(timeout)
+    try:
+        infos = socket.getaddrinfo(hostname, None)
+        # استخراج family (AF_INET یا AF_INET6) و آی‌پی
+        family = infos[0][0]
+        ip_address = infos[0][4][0]
+        return family, ip_address
+    except (socket.gaierror, socket.timeout, OSError):
+        return None, None
+    finally:
+        socket.setdefaulttimeout(old_timeout)
+
 def test_connection(address, port, protocol='tcp', timeout=3):
-    """تست اتصال TCP یا UDP به سرور و محاسبه زمان پاسخ"""
+    """تست اتصال TCP یا UDP به سرور و محاسبه زمان پاسخ دقیق لایه ۴"""
+    # ۱. تست سریع DNS با تایم‌اوت مشخص برای جلوگیری از فریز شدن
+    family, ip_address = resolve_dns_with_timeout(address, timeout=timeout)
+    if not ip_address:
+        return False, None
+
+    # شروع محاسبه زمان دقیق RTT پس از عبور از مرحله DNS
     start_time = time.perf_counter()
     try:
         if protocol == 'tcp':
-            # تست دست‌تکانی سه مرحله‌ای TCP
-            with socket.create_connection((address, port), timeout=timeout):
+            # استفاده از family استخراج شده به جای AF_INET ثابت (حیاتی برای IPv6)
+            with socket.socket(family, socket.SOCK_STREAM) as s:
+                s.settimeout(timeout)
+                s.connect((ip_address, port))
                 rtt = int((time.perf_counter() - start_time) * 1000)
                 return True, rtt
                 
         elif protocol == 'udp':
-            # پینگ واقعی UDP در لایه ترانسپورت بدون پاسخ سرور ناممکن است.
-            # بهترین تقریب بدون مصرف دیتای زیاد، بررسی باز بودن سوکت محلی و عدم دریافت فوری ICMP Connection Refused است.
-            with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as s:
+            # استفاده از family استخراج شده برای UDP
+            with socket.socket(family, socket.SOCK_DGRAM) as s:
                 s.settimeout(timeout)
-                s.connect((address, port))
+                s.connect((ip_address, port))
                 s.send(b'\x00')
                 try:
-                    # اگر سرور زنده نباشد و آی‌پی معتبر باشد، معمولاً پاسخی نمی‌آید (تایم اوت)
-                    # اما اگر پورت بسته باشد، آی‌سی‌ام‌پي خطای Refused می‌دهد.
                     s.recv(1)
                 except socket.timeout:
-                    pass # در UDP تایم‌اوت لزوماً نشانه خرابی نیست
+                    pass 
                 except ConnectionRefusedError:
                     return False, None
                 
                 rtt = int((time.perf_counter() - start_time) * 1000)
                 return True, rtt
                 
-    except (socket.timeout, socket.gaierror, ConnectionRefusedError, OSError):
+    except (socket.timeout, ConnectionRefusedError, OSError):
         return False, None
     except Exception as e:
         logger.debug(f"خطای غیرمنتظره در تست {address}:{port} - {e}")
@@ -103,9 +129,10 @@ def process_config(config_str, timeout):
     is_alive, rtt = test_connection(address, port, protocol, timeout)
     return config_str, is_alive, rtt
 
-def ping_configs(input_file='configs/proxy_configs.txt', output_file='configs/healthy_configs.txt', timeout=3, max_workers=100):
+def ping_configs(input_file='configs/proxy_configs.txt', output_file='configs/healthy_configs.txt', timeout=3, max_workers=100, max_rtt=2000):
     """تابع اصلی: خواندن فایل، پینگ کردن و ذخیره کانفیگ‌های سالم"""
     logger.info(f"شروع پینگ‌گیر. در حال خواندن از {input_file}...")
+    logger.info(f"تنظیمات: Timeout={timeout}s | Max Workers={max_workers} | Max RTT={max_rtt}ms")
     
     try:
         with open(input_file, 'r', encoding='utf-8') as f:
@@ -116,29 +143,35 @@ def ping_configs(input_file='configs/proxy_configs.txt', output_file='configs/he
 
     logger.info(f"تعداد {len(configs)} کانفیگ برای تست پیدا شد.")
     healthy_configs = []
+    dropped_slow = 0  
     
     with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
         future_to_config = {executor.submit(process_config, config, timeout): config for config in configs}
         
         for i, future in enumerate(concurrent.futures.as_completed(future_to_config)):
             config_str, is_alive, rtt = future.result()
+            
             if is_alive:
-                healthy_configs.append((config_str, rtt))
+                if rtt is None or rtt <= max_rtt:
+                    healthy_configs.append((config_str, rtt))
+                else:
+                    dropped_slow += 1
             
             if (i + 1) % 100 == 0 or (i + 1) == len(configs):
-                logger.info(f"پیشرفت: {i + 1}/{len(configs)} تست شد. کانفیگ‌های سالم تا اینجا: {len(healthy_configs)}")
+                logger.info(f"پیشرفت: {i + 1}/{len(configs)} تست شد. | سالم: {len(healthy_configs)} | حذف‌شده (کند): {dropped_slow}")
 
-    # مرتب‌سازی کانفیگ‌ها بر اساس کمترین پینگ (RTT)
+    # مرتب‌سازی بر اساس کمترین پینگ
     healthy_configs.sort(key=lambda x: x[1] if x[1] is not None else 9999)
 
     try:
         with open(output_file, 'w', encoding='utf-8') as f:
             for config, rtt in healthy_configs:
                 f.write(config + '\n')
-        logger.info(f"✅ با موفقیت {len(healthy_configs)} کانفیگ سالم (مرتب شده بر اساس پینگ) در فایل {output_file} ذخیره شد.")
+        logger.info(f"✅ با موفقیت {len(healthy_configs)} کانفیگ سالم در فایل {output_file} ذخیره شد.")
+        if dropped_slow > 0:
+            logger.info(f"⚠️ تعداد {dropped_slow} کانفیگ به دلیل پینگ بالاتر از {max_rtt}ms حذف شدند.")
     except Exception as e:
         logger.error(f"خطا در نوشتن فایل {output_file}: {e}")
 
 if __name__ == "__main__":
-    # اجرای ماژول
-    ping_configs(timeout=3, max_workers=100)
+    ping_configs(timeout=3, max_workers=100, max_rtt=2000)
