@@ -16,7 +16,7 @@ def fix_base64_padding(s):
     return s + '=' * (-len(s) % 4)
 
 def parse_config(config_str):
-    """استخراج پروتکل، آدرس و پورت (شناسایی و تفکیک هوشمند IPv6)"""
+    """استخراج پروتکل, آدرس و پورت (شناسایی و تفکیک هوشمند IPv6)"""
     config_str = config_str.strip()
     if not config_str:
         return None, None, None
@@ -72,7 +72,7 @@ def resolve_dns_with_timeout(hostname):
         return None
 
 def test_connection(address, port, protocol='tcp', timeout=3):
-    """تست اتصال TCP یا UDP به سرور IPv4 و محاسبه زمان پاسخ RTT"""
+    """تست اتصال TCP یا UDP به سرور IPv4 و محاسبه زمان پاسخ دقیق RTT"""
     ip_address = resolve_dns_with_timeout(address)
     if not ip_address:
         return False, None
@@ -83,6 +83,7 @@ def test_connection(address, port, protocol='tcp', timeout=3):
             with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                 s.settimeout(timeout)
                 s.connect((ip_address, port))
+                # محاسبه RTT دقیقاً بلافاصله پس از برقراری موفقیت‌آمیز TCP Handshake
                 rtt = int((time.perf_counter() - start_time) * 1000)
                 return True, rtt
                 
@@ -121,7 +122,7 @@ def process_config(config_str, timeout):
         return config_str, 'alive', rtt
     return config_str, 'dead', None
 
-def ping_configs(input_file='configs/proxy_configs.txt', output_file='configs/healthy_configs.txt', timeout=5, max_workers=50, max_rtt=4000):
+def ping_configs(input_file='configs/proxy_configs.txt', output_file='configs/healthy_configs.txt', timeout=3, max_workers=50, max_rtt=1500):
     """تابع اصلی: خواندن فایل، پینگ کردن و ذخیره کانفیگ‌های سالم (فقط IPv4)"""
     logger.info(f"شروع پینگ‌گیر. در حال خواندن از {input_file}...")
     logger.info(f"تنظیمات: Timeout={timeout}s | Max Workers={max_workers} | Max RTT={max_rtt}ms")
@@ -132,7 +133,6 @@ def ping_configs(input_file='configs/proxy_configs.txt', output_file='configs/he
             configs = [line.strip() for line in f if line.strip()]
     except FileNotFoundError:
         logger.error(f"فایل ورودی {input_file} پیدا نشد.")
-        # ساخت فایل خروجی خالی برای جلوگیری از خطای workflow
         try:
             with open(output_file, 'w', encoding='utf-8') as f:
                 f.write("")
@@ -146,7 +146,6 @@ def ping_configs(input_file='configs/proxy_configs.txt', output_file='configs/he
     dropped_slow = 0
     dropped_ipv6 = 0
     
-    # حل مشکل Race Condition: تنظیم تایم‌اوت سراسری فقط یک‌بار قبل از شروع تردها
     old_timeout = socket.getdefaulttimeout()
     socket.setdefaulttimeout(timeout)
     
@@ -168,7 +167,6 @@ def ping_configs(input_file='configs/proxy_configs.txt', output_file='configs/he
                 if (i + 1) % 100 == 0 or (i + 1) == len(configs):
                     logger.info(f"پیشرفت: {i + 1}/{len(configs)} | سالم: {len(healthy_configs)} | حذف‌شده (کند): {dropped_slow} | IPv6: {dropped_ipv6}")
     finally:
-        # بازگرداندن وضعیت تایم‌اوت سیستم‌عامل به حالت اصلی پس از پایان کار تردها
         socket.setdefaulttimeout(old_timeout)
 
     # مرتب‌سازی بر اساس کمترین پینگ
@@ -184,11 +182,10 @@ def ping_configs(input_file='configs/proxy_configs.txt', output_file='configs/he
         if dropped_ipv6 > 0:
             logger.info(f"ℹ️ تعداد {dropped_ipv6} کانفیگ IPv6 حذف شدند.")
         
-        # هشدار اگر هیچ کانفیگی پیدا نشد
         if len(healthy_configs) == 0:
             logger.warning("⚠️ هیچ کانفیگ سالمی پیدا نشد! فایل خروجی خالی است.")
     except Exception as e:
         logger.error(f"خطا در نوشتن فایل {output_file}: {e}")
 
 if __name__ == "__main__":
-    ping_configs(timeout=5, max_workers=50, max_rtt=4000)
+    ping_configs(timeout=3, max_workers=50, max_rtt=1500)
