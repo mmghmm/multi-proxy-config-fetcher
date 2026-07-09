@@ -36,12 +36,16 @@ jobs:
       run: python src/fetch_configs.py
       continue-on-error: true
     
-    - name: Generate charts and reports
-      run: python src/generate_charts.py
-      
+    - name: Ping configs to filter healthy ones
+      run: python src/pinger.py
+      continue-on-error: true
+    
     - name: Convert configs to sing-box format
       run: python src/config_to_singbox.py
     
+    - name: Generate charts and reports
+      run: python src/generate_charts.py
+      
     - name: Update README timestamps and stats
       run: |
         timestamp=$(date +%s)
@@ -65,14 +69,7 @@ jobs:
     
     - name: Commit and push changes
       run: |
-        git add configs/proxy_configs.txt
-        git add configs/singbox_configs.json
-        git add configs/channel_stats.json
-        git add assets/channel_stats_chart.svg
-        git add assets/performance_report.html
-        git add README.md
-        git add README_FA.md
-        git add README_CN.md
-        git add README_RU.md
+        # اضافه کردن هوشمند و یکجای پوشه‌ها و فایل‌های متنی بدون ریسک خطای نبود فایل
+        git add configs/ assets/ README*.md
         git commit -m "Update proxy configs, stats and reports" || echo "No changes to commit"
         git push
