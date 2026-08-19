@@ -70,8 +70,6 @@ trojan://AE62539071@13.125.144.78:443?security=tls&sni=viable-serval.rooster465.
 
 trojan://AE62539071@13.158.137.73:443?security=tls&sni=novel-bat.rooster465.autos&fp=chrome&type=tcp&path=%2f#%f0%9f%87%af%f0%9f%87%b5%20JP%20771
 
-trojan://AE62539071@13.193.221.67:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=main-impala.rooster465.autos#%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%E2%9E%A0%40PlanB_net
-
 trojan://AE62539071@13.193.221.67:443?sni=main-impala.rooster465.autos&fp=chrome&type=tcp&path=%2f#%f0%9f%87%af%f0%9f%87%b5%20JP%20504
 
 trojan://AE62539071@13.212.173.162:443?security=tls&sni=integral-quetzal.rooster465.autos&path=%2f#%f0%9f%87%b8%f0%9f%87%ac%20SG%2015
@@ -126,6 +124,8 @@ trojan://AE62539071@54.169.117.191:443?sni=excited-sole.rooster465.autos&fp=chro
 
 trojan://AE62539071@54.170.38.205:443?security=tls&sni=unbiased-garfish.rooster465.autos&fp=chrome&type=tcp&headerType=none&path=%2f&allow_insecure=0#%f0%9f%87%ae%f0%9f%87%aa%20IE%2039
 
+trojan://AE62539071@54.199.226.33:443?type=raw&security=tls&sni=pleased-pelican.rooster465.autos&fp=chrome#%40Moftconfig%20%F0%9F%87%AF%F0%9F%87%B5%20Unknown%20%F0%9F%93%A1mci%20%E2%8F%B18223ms%20%E2%9A%A11.3MB/s
+
 trojan://AE62539071@54.244.169.225:443?security=tls&sni=sharing-duck.rooster465.autos&path=%2f#%f0%9f%87%ba%f0%9f%87%b8%20US%20127
 
 trojan://AE62539071@54.249.32.173:443?security=tls&sni=eager-camel.rooster465.autos&path=%2f#%f0%9f%87%af%f0%9f%87%b5%20JP%20149
@@ -173,10 +173,6 @@ vless://055a1ce8-2a16-4a0d-a2c2-22826c9b2413@47.253.226.114:443?encryption=none&
 vless://055a1ce8-2a16-4a0d-a2c2-22826c9b2413@47.253.226.114:443?security=reality&encryption=none&pbk=Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com#Join+Telegram:@Farah_VPN
 
 vless://0665cf1e-0df8-4981-a8de-a366e37c0866@104.18.15.19:8443?path=%2F%3Fed%3D%23Join--V2rayTun0--Join--V2rayTun0--Join--V2rayTun0--Join--V2rayTun0--Join--V2rayTun0--Join--V2rayTun0--Join--V2rayTun0--Join--V2rayTun0--%3Fed%3D512&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=xdol7mayq6wu5kil7wjyrni7o8tnydsafcmhfhn7g6rimbw5o2g6mlm.zjde5.de5.net&fp=chrome&type=ws&allowInsecure=0&sni=xdol7mayq6wu5kil7wjyrni7o8tnydsafcmhfhn7g6rimbw5o2g6mlm.zjde5.de5.net#%40V2rayTun0%F0%9F%A5%B7
-
-vless://06a7a9c3-5ed6-4285-add4-d5368d534f47@79.174.83.75:443?type=grpc&security=reality&sni=5post-gate.x5.ru&fp=safari&pbk=V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ&sid=abcd&serviceName=5post.gate.v1#%40Moftconfig%20%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%F0%9F%93%A1mci%20%E2%8F%B1429ms
-
-vless://088eb268-77bc-4d3a-8fdf-27901220b987@103.109.234.165:443?type=raw&security=reality&flow=xtls-rprx-vision&sni=de3.mcqueenconnection.ru&fp=firefox&pbk=O2ttHpVFmwoAf-E1rHgOlv7NggcwxcWkHHen7jkIBjY&sid=1798724d1c2888c1#%40Moftconfig%20%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%F0%9F%93%A1mci%20%E2%8F%B177ms
 
 vless://08cb0591-5193-4a0c-9105-ceb09fba67fe@www.speedtest.net:2053?path=%2F&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&insecure=1&host=CCWtV-16202.phoenixappdatai.uk&fp=chrome&type=ws&allowInsecure=1&sni=CCWtV-16202.phoenixappdatai.uk#%40Filter_breaker
 
@@ -252,11 +248,15 @@ vless://0c5853e1-a606-4aa2-bbfa-86a7b58d43b1@tu2.petshopcloud.ir:44217?encryptio
 
 vless://0c5853e1-a606-4aa2-bbfa-86a7b58d43b1@tu2.petshopcloud.ir:44217?encryption=none&fp=chrome&pbk=a1VvM3k8ETY4UZVL_eUbKwFwpVveNqD0ObMZ1dtwLj0&security=reality&sid=2adcb0c184d15c1a&sni=www.cloudflare.com&spx=/c35feea118504ea&type=tcp#EPODONIOS
 
+vless://0ca45842-71e2-47fe-889f-9e75f93ea459@134.122.202.244:44915?type=raw#%40Moftconfig%20%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%E2%9C%85GeoOK%20%F0%9F%93%A1mci%20%E2%8F%B1278ms
+
 vless://0d543aed-4e30-4553-b5ac-211419bb0961@185.128.139.11:18244?security=none&encryption=none&headerType=none&type=tcp#EPODONIOS
 
 vless://0d543aed-4e30-4553-b5ac-211419bb0961@185.128.139.11:18244?security=none&encryption=none&host=/?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#EPODONIOS
 
-vless://11587f71-f97f-453d-9041-43eaa53ee636@fast17.slopllex.app:443?type=raw&security=tls&flow=xtls-rprx-vision&sni=fast17.slopllex.app&fp=edge#%40Moftconfig%20%F0%9F%87%AB%F0%9F%87%AE%20%E2%9C%85GeoOK%20%F0%9F%93%A1mci%20%E2%8F%B15898ms
+vless://0dc18864-cb7d-4d5d-b760-ea928246b640@138.124.123.127:2086?security=reality&encryption=none&fm=%7B%22tcp%22%3A%5B%5D%2C%22udp%22%3A%5B%5D%2C%22quicParams%22%3A%7B%7D%7D&pbk=FdedLVqgh4rCCzYydDap0cmzOuhnw2hdwpj0C4G1sjU&host=msedge.b.tlu.dl.delivery.mp.microsoft.com&headerType=none&fp=qq&type=tcp&sni=support-shield.nvidia.nl&sid=b91fc778714c36a6#filembad-68  🚀 Need a premium VPN config? Try 👉 @failvpn_bot
+
+vless://1103b45b-a6a4-466a-bb9a-d73eca8f429b@5.188.115.159:8446?type=grpc&security=reality&sni=360.yandex.ru&fp=firefox&pbk=rUCHk3_64Wv_f_v46OfVNYldKu9fUqHpX937bmGeeDs#%40Moftconfig%20%F0%9F%87%B8%F0%9F%87%AA%20Sweden%20%E2%9C%85GeoOK%20%F0%9F%93%A1mci%20%E2%8F%B1309ms
 
 vless://12cb0a24-0438-4980-8617-9c93205895fa@216.24.57.6:8443?encryption=none&fp=chrome&host=kakoolnews.dontstealkakoolnews.workers.dev&path=%2F&security=tls&sni=kakoolnews.dontstealkakoolnews.workers.dev&type=ws#4Jadi-7542
 
@@ -284,9 +284,11 @@ vless://14c80e0e-f7ce-4991-94fc-99a1db4a9b1e@159.89.87.21:28190?security=reality
 
 vless://14da77da-4fb3-4e49-ac4f-7881ea19b267@177.3.212.127:443?encryption=none&security=none&type=ws&path=%2F#0527-Link-03
 
-ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6QUtpa1ZpRS9tOE9sVkVmanlvd28vS0V1eGlmZWE1aEZVRFlUbG9JMlNXOD0@161.118.225.233:56927#%40Moftconfig%20%F0%9F%87%B8%F0%9F%87%AC%20Singapore%20%E2%9C%85GeoOK%20%F0%9F%93%A1mci%20%E2%8F%B1239ms
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6TFl1WFBLbE5GMVYyalkvVVd4RkE4d3JJUnp3UGVDTGtxcWsvNnkxMlRLOD0@168.138.177.12:56927#%40Moftconfig%20%F0%9F%87%B8%F0%9F%87%AC%20Singapore%20%E2%9C%85GeoOK%20%F0%9F%93%A1mci%20%E2%8F%B1243ms
 
-ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6cGl2Kys0OXVrOVVkSTZKbzhCL0ZUTXo0bmNObUFvQnUvbUFMQXF5Ry9YMD0@129.146.201.41:50356#%40Moftconfig%20%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%E2%9C%85GeoOK%20%F0%9F%93%A1mci%20%E2%8F%B1243ms
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6U2VYN2NMZlcrV1dnRm9jM25QU0J4UHhCUHRFNjNxd09ETXFwVWY3U2xobz0@168.107.81.254:56927#%40Moftconfig%20%F0%9F%87%B8%F0%9F%87%AC%20%E2%9C%85GeoOK%20%F0%9F%93%A1mci%20%E2%8F%B1356ms
+
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6VUFsWTRBNGhCTkErcmJHNkdGRGlQeHRHMGlnbnNwNytBUUtyUllYdFpxND0@144.24.179.100:59924#%40Moftconfig%20%F0%9F%87%A9%F0%9F%87%AA%20%E2%9C%85GeoOK%20%F0%9F%93%A1mci%20%E2%8F%B1187ms
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0MmQyYjQ3MTgxYTMyZGU3@154.26.132.38:16922#HP71
 
@@ -421,8 +423,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyZTVjNzVjMzVkN2VlOTI5@163.171.213.47:19702#H
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMDNhYzY1ZTMwZjI4YjBi@154.205.139.9:11201#HP71
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMDNhYzY1ZTMwZjI4YjBi@154.205.139.9:11202#HP71
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMDNhYzY1ZTMwZjI4YjBi@154.205.139.9:11203#HP71
 
 hysteria2://37afff84-34bd-4db6-b24a-7d73d2ed48ce@107.173.127.166:25000?insecure=1&sni=www.apple.com#yandex-99
 
