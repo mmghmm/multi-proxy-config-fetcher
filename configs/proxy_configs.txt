@@ -124,8 +124,6 @@ vless://0fada528-59c7-44b7-a3d7-377c36c55d97@35.229.131.182:47394?flow=xtls-rprx
 
 vless://0fcbc45d-acdc-40cf-9a66-961c00f5b4a5@109.169.76.39:443?flow=xtls-rprx-vision&security=reality&encryption=none&sni=slashdot.org&fp=firefox&pbk=SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY&sid=fd55b698ee8c3629&type=tcp&headerType=none&path=%2f#%f0%9f%87%ac%f0%9f%87%a7%20GB%201
 
-vless://1206bad5-dcc9-410e-9595-d9fe9ee54085@5.188.26.176:7443?security=reality&encryption=none&pbk=kGxErpyTzyh6Md1MLGYaR_0j3X6jrCzgTDRqRbbfOCg&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=max.ru&sid=a1b2c3d4#%40mehrosaboran
-
 vless://1206bad5-dcc9-410e-9595-d9fe9ee54085@80.96.109.223:5000?flow=xtls-rprx-vision&security=reality&encryption=none&sni=special.aeternavpn.space&fp=firefox&pbk=-6SjfnZXAYm69euKQ3XNhq0nC7No7YE4qfdc2qx0Xwo&sid=a1b2c3d4&type=tcp&headerType=none&path=%2f#%f0%9f%87%b2%f0%9f%87%a9%20MD%201
 
 vless://1206bad5-dcc9-410e-9595-d9fe9ee54085@80.96.109.223:5000?flow=xtls-rprx-vision&security=reality&encryption=none&sni=special.aeternavpn.space&fp=ios&pbk=-6SjfnZXAYm69euKQ3XNhq0nC7No7YE4qfdc2qx0Xwo&sid=a1b2c3d4&type=tcp&headerType=none&path=%2f#%f0%9f%87%b2%f0%9f%87%a9%20MD%202
@@ -143,6 +141,8 @@ vless://148e52d4-c3fc-4527-b7e9-47c4a259cd61@103.20.235.244:443?flow=xtls-rprx-v
 vless://148e52d4-c3fc-4527-b7e9-47c4a259cd61@31.77.220.31:443?type=raw&security=reality&flow=xtls-rprx-vision&sni=de.global-cdn.org&fp=firefox&pbk=bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg&sid=f7d0420b8ab26060#%40Moftconfig%20%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%E2%9C%85GeoOK%20%F0%9F%93%A1mci%20%E2%8F%B1204ms
 
 vless://148e52d4-c3fc-4527-b7e9-47c4a259cd61@31.77.220.32:443?type=raw&security=reality&flow=xtls-rprx-vision&sni=de.global-cdn.org&fp=firefox&pbk=bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg&sid=f7d0420b8ab26060#%40Moftconfig%20%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%E2%9C%85GeoOK%20%F0%9F%93%A1mci%20%E2%8F%B1182ms
+
+vless://148e52d4-c3fc-4527-b7e9-47c4a259cd61@de.global-cdn.org:443?type=raw&security=reality&flow=xtls-rprx-vision&sni=de.global-cdn.org&fp=edge&pbk=bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg&sid=f7d0420b8ab26060#%40Moftconfig%20%F0%9F%87%A9%F0%9F%87%AA%20%E2%9C%85GeoOK%20%F0%9F%93%A1mci%20%E2%8F%B1109ms
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0MmQyYjQ3MTgxYTMyZGU3@154.26.132.38:16922#HP71
 
@@ -336,6 +336,8 @@ trojan://87d1bfd4-574e-4c96-ad42-0426f27461ff@mfa.gov.ua:443?path=%2F&amp;securi
 
 trojan://CF68213490@16.145.201.0:443?security=tls&sni=capable-eel.rooster465.autos#EPODONIOS
 
+trojan://Mitivpn@151.101.110.219:443?path=%2Fde&security=tls&alpn=http%2F1.1&insecure=0&host=3-mitivpn.global.ssl.fastly.net&fp=chrome&type=ws&allowInsecure=0&sni=global.fastly.com#canfingV2rayNG-21  🚀 Need a premium VPN config? Try 👉 @failvpn_bot
+
 trojan://NQ26071394@89.39.70.143:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=thorough-falcon.rooster465.autos#4Jadi-5020
 
 trojan://NQ26071394@89.39.70.143:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=thorough-falcon.rooster465.autos#Join+Telegram:@Farah_VPN
@@ -365,6 +367,8 @@ trojan://fd3f82cc-bf25-4d3a-a379-09834800ade9@jp200m.jiasu.asia:50000?security=t
 
 trojan://fd3f82cc-bf25-4d3a-a379-09834800ade9@jp200m.jiasu.asia:50000?sni=jp200m.jiasu.asia&fp=chrome&type=tcp&path=%2f#%f0%9f%87%af%f0%9f%87%b5%20JP%209
 
+trojan://humanity@104.18.152.219:443?path=%2Fassignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#canfingV2rayNG-22  🚀 Need a premium VPN config? Try 👉 @failvpn_bot
+
 trojan://humanity@104.18.32.37:443?security=tls&sni=www.gossipglove.com&fp=chrome&allowInsecure=1&type=ws&path=%2Fassignment#4Jadi-6467
 
 trojan://humanity@104.18.8.83:443?path=%2Fassignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.calmlunch.com#4Jadi-6484
@@ -374,10 +378,6 @@ trojan://humanity@104.18.9.83:443?type=ws&security=tls&sni=www.calmlunch.com&hos
 trojan://humanity@104.20.6.134:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.creationlong.org#Join+Telegram:@Farah_VPN
 
 trojan://humanity@165.215.250.14:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&type=ws&security=tls&path=%2Fassignment&host=www.calmlunch.com&sni=www.calmlunch.com&fp=chrome&insecure=1&allowInsecure=1#4Jadi-6554
-
-trojan://humanity@185.220.100.168:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#ProxyMtpVPN-24  🚀 Need a premium VPN config? Try 👉 @failvpn_bot
-
-trojan://humanity@185.220.100.168:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#ProxyMtpVPN-32  🚀 Need a premium VPN config? Try 👉 @failvpn_bot
 
 trojan://humanity@202.37.33.80:443?path=%2Fassignment&security=tls&insecure=0&host=www.creationlong.org&type=ws&allowInsecure=0&sni=www.creationlong.org#4Jadi-6682
 
